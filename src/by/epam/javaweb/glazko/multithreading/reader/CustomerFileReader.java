@@ -1,6 +1,8 @@
 package by.epam.javaweb.glazko.multithreading.reader;
 
 import by.epam.javaweb.glazko.multithreading.exception.FileReadingException;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -19,12 +21,21 @@ public class CustomerFileReader {
 
     private CustomerFileReader() {}
 
+    private static final Logger LOGGER = LogManager.getLogger(CustomerFileReader.class);
+
+    /**
+     * Reads a file with customer parameters (order window number, menu items and their quantities)
+     * and returns a list with valid lines (not empty).
+     * @param path path to the file with information.
+     * @return list with valid lines.
+     * @throws FileReadingException if there was an error while reading.
+     */
     public List<String> read(String path) throws FileReadingException {
         try (Stream<String> lineStream = Files.lines(Paths.get(path))) {
             return lineStream.filter(s -> !s.isEmpty())
                     .collect(Collectors.toList());
         } catch (IOException e) {
-            e.printStackTrace();
+            LOGGER.error(e.getMessage());
         }
         throw new FileReadingException("Error while reading file!");
     }

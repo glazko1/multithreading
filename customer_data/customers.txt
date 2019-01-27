@@ -1,67 +1,36 @@
-1 2 Hamburger 2 McFlurry 3 CocaCola Order
-2 1 Hamburger 2 McChicken 1 McFlurry 1 CocaCola Order
-2 2 McChicken 1 FrenchFries 2 CocaCola Pre-order
-2 1 McChicken 2 FrenchFries 1 McFlurry 3 CocaCola Order
-2 1 Hamburger 2 McChicken 2 FrenchFries 1 McFlurry 2 CocaCola Pre-order
-2 2 Hamburger 2 McChicken 1 FrenchFries 2 McFlurry 3 CocaCola Order
-4 1 McFlurry 1 CocaCola Order
-4 2 Hamburger 1 FrenchFries 1 McFlurry 2 CocaCola Order
-2 1 FrenchFries 1 McFlurry 1 CocaCola Order
-4 1 McChicken 2 McFlurry 2 CocaCola Order
-2 2 Hamburger 2 FrenchFries 1 CocaCola Pre-order
-2 2 Hamburger 2 McChicken 1 McFlurry 1 CocaCola Pre-order
-2 1 Hamburger 2 McChicken 1 FrenchFries 2 McFlurry 2 CocaCola Order
-1 1 Hamburger 1 McChicken 3 CocaCola Order
-4 1 McChicken 1 McFlurry 1 CocaCola Pre-order
-1 1 Hamburger 2 McChicken 1 McFlurry 2 CocaCola Order
-1 1 Hamburger 1 McChicken 2 FrenchFries 2 McFlurry 1 CocaCola Order
-1 1 Hamburger 1 FrenchFries 3 CocaCola Order
-4 2 McChicken 2 FrenchFries 1 CocaCola Order
-3 2 Hamburger 1 McChicken 1 FrenchFries 2 McFlurry 3 CocaCola Order
-4 2 McChicken 1 FrenchFries 2 McFlurry 3 CocaCola Order
-4 2 Hamburger 1 McChicken 2 FrenchFries 3 CocaCola Pre-order
+2 1 Hamburger 1 McChicken 2 FrenchFries 2 McFlurry 3 CocaCola Pre-order
+4 1 Hamburger 1 McChicken 1 McFlurry 2 CocaCola Pre-order
+4 2 McChicken 2 FrenchFries 2 McFlurry 1 CocaCola Order
+3 2 Hamburger 1 McFlurry 2 CocaCola Order
+3 1 FrenchFries 1 McFlurry 2 CocaCola Order
+2 2 McChicken 1 McFlurry 3 CocaCola Order
+2 1 FrenchFries 1 McFlurry 2 CocaCola Pre-order
+2 1 Hamburger 2 FrenchFries 1 McFlurry 3 CocaCola Order
+1 2 Hamburger 2 McChicken 1 FrenchFries 1 McFlurry 2 CocaCola Order
+4 1 Hamburger 2 FrenchFries 2 McFlurry 3 CocaCola Pre-order
+2 2 Hamburger 2 FrenchFries 1 McFlurry 3 CocaCola Pre-order
+2 1 FrenchFries 2 CocaCola Order
+1 2 McChicken 1 FrenchFries 1 McFlurry 2 CocaCola Order
+3 2 Hamburger 2 McChicken 3 CocaCola Order
+1 2 McChicken 1 FrenchFries 2 McFlurry 3 CocaCola Order
+2 2 Hamburger 3 CocaCola Order
+2 1 Hamburger 3 CocaCola Pre-order
+4 1 McChicken 1 FrenchFries 2 McFlurry 3 CocaCola Pre-order
+4 2 Hamburger 2 McChicken 2 McFlurry 1 CocaCola Order
+1 2 Hamburger 2 FrenchFries 2 McFlurry 1 CocaCola Pre-order
+4 1 Hamburger 1 McChicken 2 FrenchFries 2 CocaCola Pre-order
+3 2 McChicken 2 McFlurry 3 CocaCola Pre-order
+2 1 McChicken 1 FrenchFries 2 McFlurry 1 CocaCola Pre-order
+4 1 Hamburger 1 FrenchFries 3 CocaCola Order
+3 2 Hamburger 1 McChicken 1 FrenchFries 1 McFlurry 2 CocaCola Order
 2 1 Hamburger 1 CocaCola Order
-1 1 McChicken 2 McFlurry 1 CocaCola Order
-1 1 Hamburger 2 McChicken 2 McFlurry 3 CocaCola Order
-2 1 McChicken 1 FrenchFries 1 McFlurry 3 CocaCola Order
-1 2 Hamburger 1 McChicken 2 FrenchFries 1 McFlurry 3 CocaCola Order
-2 2 Hamburger 2 FrenchFries 1 McFlurry 3 CocaCola Order
-3 2 Hamburger 1 McChicken 2 FrenchFries 2 McFlurry 3 CocaCola Order
-3 1 Hamburger 2 McChicken 2 FrenchFries 1 McFlurry 3 CocaCola Pre-order
-3 1 Hamburger 2 McChicken 2 FrenchFries 2 McFlurry 3 CocaCola Order
-2 2 Hamburger 1 McChicken 2 FrenchFries 1 McFlurry 2 CocaCola Order
-3 1 FrenchFries 2 McFlurry 3 CocaCola Order
-2 1 Hamburger 2 McChicken 2 McFlurry 2 CocaCola Pre-order
-2 1 McChicken 2 FrenchFries 2 CocaCola Pre-order
-2 2 Hamburger 1 McChicken 2 FrenchFries 2 CocaCola Pre-order
-2 1 Hamburger 2 McChicken 1 FrenchFries 2 McFlurry 2 CocaCola Order
-3 1 McChicken 2 McFlurry 1 CocaCola Order
-4 1 Hamburger 2 McChicken 2 McFlurry 2 CocaCola Order
-3 1 Hamburger 2 FrenchFries 1 CocaCola Order
-3 1 Hamburger 1 McChicken 2 McFlurry 1 CocaCola Order
-1 1 FrenchFries 2 McFlurry 3 CocaCola Pre-order
-3 2 Hamburger 2 McChicken 2 FrenchFries 3 CocaCola Order
-1 2 McChicken 2 McFlurry 1 CocaCola Order
-2 1 McChicken 1 FrenchFries 1 CocaCola Order
-4 2 Hamburger 2 McChicken 2 McFlurry 3 CocaCola Order
-1 1 Hamburger 2 FrenchFries 3 CocaCola Order
-3 1 Hamburger 1 McChicken 2 CocaCola Order
-4 2 Hamburger 1 FrenchFries 2 McFlurry 1 CocaCola Order
-2 2 McChicken 1 FrenchFries 1 McFlurry 2 CocaCola Order
-1 1 FrenchFries 3 CocaCola Order
-3 1 Hamburger 1 McChicken 1 FrenchFries 2 McFlurry 3 CocaCola Pre-order
-2 1 Hamburger 2 FrenchFries 2 McFlurry 3 CocaCola Order
-2 1 Hamburger 2 McChicken 1 FrenchFries 1 CocaCola Pre-order
-3 2 Hamburger 1 McChicken 1 McFlurry 2 CocaCola Order
-2 1 Hamburger 2 McChicken 2 FrenchFries 2 McFlurry 1 CocaCola Pre-order
-3 1 McChicken 1 McFlurry 1 CocaCola Order
-2 2 Hamburger 2 McChicken 2 FrenchFries 1 CocaCola Order
-2 1 FrenchFries 2 McFlurry 2 CocaCola Order
-4 2 Hamburger 2 McChicken 2 FrenchFries 3 CocaCola Order
-3 2 Hamburger 2 McChicken 1 McFlurry 2 CocaCola Order
-4 1 Hamburger 2 McChicken 3 CocaCola Pre-order
-3 2 Hamburger 2 McChicken 1 McFlurry 3 CocaCola Pre-order
-4 1 McFlurry 1 CocaCola Order
-2 2 McChicken 2 FrenchFries 1 McFlurry 2 CocaCola Order
-2 1 McChicken 1 FrenchFries 1 McFlurry 1 CocaCola Order
-3 2 Hamburger 1 McChicken 1 FrenchFries 1 McFlurry 1 CocaCola Order
+4 2 Hamburger 1 McChicken 2 McFlurry 2 CocaCola Order
+1 1 Hamburger 1 McChicken 2 FrenchFries 1 McFlurry 3 CocaCola Pre-order
+2 2 McChicken 2 FrenchFries 2 McFlurry 3 CocaCola Order
+1 1 FrenchFries 2 CocaCola Order
+2 2 Hamburger 1 McFlurry 2 CocaCola Pre-order
+1 2 McChicken 1 McFlurry 2 CocaCola Order
+1 2 Hamburger 2 McChicken 2 FrenchFries 2 McFlurry 1 CocaCola Pre-order
+2 2 Hamburger 2 McChicken 1 FrenchFries 1 McFlurry 3 CocaCola Pre-order
+3 1 Hamburger 2 McChicken 1 FrenchFries 2 CocaCola Order
+3 2 McChicken 2 FrenchFries 1 McFlurry 2 CocaCola Order

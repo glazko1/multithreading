@@ -4,5 +4,8 @@ import by.epam.javaweb.glazko.multithreading.menu.RestaurantMenu;
 
 public interface Restaurant {
 
+    /**
+     * @return restaurant's menu.
+     */
     RestaurantMenu getMenu();
 }

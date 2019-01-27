@@ -15,6 +15,11 @@ public class OrderUpdateObserver {
 
     private OrderUpdateObserver() {}
 
+    /**
+     * Process of handling event by observer. Recalculates the price of given order. Called
+     * when order information was changed (menu item was added).
+     * @param order order to recalculate the price.
+     */
     public void handleEvent(Order order) {
         double price = 0.0;
         Map<MenuItem, Integer> orderMenuItems = order.getOrderMenuItems();

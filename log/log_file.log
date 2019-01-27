@@ -1,823 +1,427 @@
-INFO  | 2019-01-27 13:47:49 | Order Window 1 | Order 1      | Hello! Make your order please!
-INFO  | 2019-01-27 13:47:50 | Order Window 2 | Order 2      | Hello! Make your order please!
-INFO  | 2019-01-27 13:47:51 |                | Pre-order 3  | 2 x Coca Cola 4.4
-INFO  | 2019-01-27 13:47:51 |                | Pre-order 3  | 2 x McChicken 8.6
-INFO  | 2019-01-27 13:47:51 |                | Pre-order 3  | 1 x French Fries 3.0
-INFO  | 2019-01-27 13:47:51 |                | Pre-order 3  | Total price: 16.0
-INFO  | 2019-01-27 13:47:51 |                | Pre-order 3  | Status: packaging
-INFO  | 2019-01-27 13:47:51 | Order Window 1 | Order 1      | 2 x Hamburger 3.6
-INFO  | 2019-01-27 13:47:52 | Order Window 2 | Order 2      | 1 x Hamburger 1.8
-INFO  | 2019-01-27 13:47:53 | Order Window 1 | Order 1      | 3 x Coca Cola 6.6
-INFO  | 2019-01-27 13:47:54 | Order Window 2 | Order 2      | 1 x Coca Cola 2.2
-INFO  | 2019-01-27 13:47:54 |                | Pre-order 3  | 2 x Coca Cola was packaged!
-INFO  | 2019-01-27 13:47:55 | Order Window 4 | Order 4      | Hello! Make your order please!
-INFO  | 2019-01-27 13:47:55 | Order Window 1 | Order 1      | 2 x McFlurry 6.0
-INFO  | 2019-01-27 13:47:55 | Order Window 1 | Order 1      | Total price: 16.2
-INFO  | 2019-01-27 13:47:55 |                | Order 1      | Status: packaging
-INFO  | 2019-01-27 13:47:56 | Order Window 2 | Order 2      | 2 x McChicken 8.6
-INFO  | 2019-01-27 13:47:57 | Order Window 4 | Order 4      | 1 x Coca Cola 2.2
-INFO  | 2019-01-27 13:47:58 | Order Window 2 | Order 2      | 1 x McFlurry 3.0
-INFO  | 2019-01-27 13:47:58 | Order Window 2 | Order 2      | Total price: 15.6
-INFO  | 2019-01-27 13:47:58 |                | Order 2      | Status: packaging
-INFO  | 2019-01-27 13:47:58 |                | Pre-order 3  | 1 x French Fries was packaged!
-INFO  | 2019-01-27 13:47:59 | Order Window 4 | Order 4      | 1 x McFlurry 3.0
-INFO  | 2019-01-27 13:47:59 | Order Window 4 | Order 4      | Total price: 5.2
-INFO  | 2019-01-27 13:47:59 |                | Order 4      | Status: packaging
-INFO  | 2019-01-27 13:48:00 |                | Pre-order 3  | 2 x McChicken was packaged!
-INFO  | 2019-01-27 13:48:00 |                | Pre-order 3  | Status: ready
-INFO  | 2019-01-27 13:48:00 | Order Window 2 | Pre-order 3  | Thank you for your order! Have a nice day!
-INFO  | 2019-01-27 13:48:00 | Order Window 1 | Order 1      | 2 x McFlurry was brought!
-INFO  | 2019-01-27 13:48:00 |                | Pre-order 5  | 1 x Hamburger 1.8
-INFO  | 2019-01-27 13:48:00 |                | Pre-order 5  | 2 x Coca Cola 4.4
-INFO  | 2019-01-27 13:48:00 |                | Pre-order 5  | 2 x McChicken 8.6
-INFO  | 2019-01-27 13:48:00 |                | Pre-order 5  | 2 x French Fries 6.0
-INFO  | 2019-01-27 13:48:00 |                | Pre-order 5  | 1 x McFlurry 3.0
-INFO  | 2019-01-27 13:48:00 |                | Pre-order 5  | Total price: 23.8
-INFO  | 2019-01-27 13:48:00 |                | Pre-order 5  | Status: packaging
-INFO  | 2019-01-27 13:48:01 | Order Window 2 | Order 2      | 1 x Coca Cola was brought!
-INFO  | 2019-01-27 13:48:03 | Order Window 2 | Order 2      | 2 x McChicken was brought!
-INFO  | 2019-01-27 13:48:03 | Order Window 1 | Order 1      | 3 x Coca Cola was brought!
-INFO  | 2019-01-27 13:48:04 | Order Window 4 | Order 4      | 1 x McFlurry was brought!
-INFO  | 2019-01-27 13:48:05 | Order Window 1 | Order 1      | 2 x Hamburger was brought!
-INFO  | 2019-01-27 13:48:05 |                | Order 1      | Status: ready
-INFO  | 2019-01-27 13:48:05 | Order Window 1 | Order 1      | Thank you for your order! Have a nice day!
-INFO  | 2019-01-27 13:48:05 | Order Window 1 | Order 6      | Hello! Make your order please!
-INFO  | 2019-01-27 13:48:05 |                | Pre-order 5  | 1 x McFlurry was packaged!
-INFO  | 2019-01-27 13:48:07 | Order Window 4 | Order 4      | 1 x Coca Cola was brought!
-INFO  | 2019-01-27 13:48:07 |                | Order 4      | Status: ready
-INFO  | 2019-01-27 13:48:07 | Order Window 4 | Order 4      | Thank you for your order! Have a nice day!
-INFO  | 2019-01-27 13:48:07 | Order Window 4 | Order 7      | Hello! Make your order please!
-INFO  | 2019-01-27 13:48:07 | Order Window 1 | Order 6      | 1 x Hamburger 1.8
-INFO  | 2019-01-27 13:48:07 |                | Pre-order 5  | 1 x Hamburger was packaged!
-INFO  | 2019-01-27 13:48:08 | Order Window 2 | Order 2      | 1 x McFlurry was brought!
-INFO  | 2019-01-27 13:48:08 | Order Window 3 | Order 8      | Hello! Make your order please!
-INFO  | 2019-01-27 13:48:09 | Order Window 4 | Order 7      | 2 x Hamburger 3.6
-INFO  | 2019-01-27 13:48:09 | Order Window 1 | Order 6      | 3 x Coca Cola 6.6
-INFO  | 2019-01-27 13:48:09 |                | Pre-order 5  | 2 x McChicken was packaged!
-INFO  | 2019-01-27 13:48:10 | Order Window 2 | Order 2      | 1 x Hamburger was brought!
-INFO  | 2019-01-27 13:48:10 |                | Order 2      | Status: ready
-INFO  | 2019-01-27 13:48:10 | Order Window 3 | Order 8      | 2 x Hamburger 3.6
-INFO  | 2019-01-27 13:48:10 | Order Window 2 | Order 2      | Thank you for your order! Have a nice day!
-INFO  | 2019-01-27 13:48:10 | Order Window 2 | Order 9      | Hello! Make your order please!
-INFO  | 2019-01-27 13:48:11 | Order Window 4 | Order 7      | 2 x Coca Cola 4.4
-INFO  | 2019-01-27 13:48:11 | Order Window 1 | Order 6      | 1 x McChicken 4.3
-INFO  | 2019-01-27 13:48:11 | Order Window 1 | Order 6      | Total price: 12.7
-INFO  | 2019-01-27 13:48:11 |                | Order 6      | Status: packaging
-INFO  | 2019-01-27 13:48:12 | Order Window 3 | Order 8      | 3 x Coca Cola 6.6
-INFO  | 2019-01-27 13:48:12 | Order Window 2 | Order 9      | 3 x Coca Cola 6.6
-INFO  | 2019-01-27 13:48:12 |                | Pre-order 5  | 2 x Coca Cola was packaged!
-INFO  | 2019-01-27 13:48:13 | Order Window 4 | Order 7      | 1 x French Fries 3.0
-INFO  | 2019-01-27 13:48:13 | Order Window 1 | Order 6      | 1 x Hamburger was brought!
-INFO  | 2019-01-27 13:48:14 | Order Window 3 | Order 8      | 1 x McChicken 4.3
-INFO  | 2019-01-27 13:48:14 | Order Window 2 | Order 9      | 1 x McChicken 4.3
-INFO  | 2019-01-27 13:48:15 | Order Window 4 | Order 7      | 1 x McFlurry 3.0
-INFO  | 2019-01-27 13:48:15 | Order Window 4 | Order 7      | Total price: 14.0
-INFO  | 2019-01-27 13:48:15 |                | Order 7      | Status: packaging
-INFO  | 2019-01-27 13:48:15 | Order Window 1 | Order 6      | 1 x McChicken was brought!
-INFO  | 2019-01-27 13:48:16 | Order Window 3 | Order 8      | 1 x French Fries 3.0
-INFO  | 2019-01-27 13:48:16 | Order Window 2 | Order 9      | 2 x French Fries 6.0
-INFO  | 2019-01-27 13:48:16 |                | Pre-order 5  | 2 x French Fries was packaged!
-INFO  | 2019-01-27 13:48:16 |                | Pre-order 5  | Status: ready
-INFO  | 2019-01-27 13:48:16 | Order Window 2 | Pre-order 5  | Thank you for your order! Have a nice day!
-INFO  | 2019-01-27 13:48:16 |                | Pre-order 10 | 2 x Hamburger 3.6
-INFO  | 2019-01-27 13:48:16 |                | Pre-order 10 | 1 x Coca Cola 2.2
-INFO  | 2019-01-27 13:48:16 |                | Pre-order 10 | 2 x French Fries 6.0
-INFO  | 2019-01-27 13:48:16 |                | Pre-order 10 | Total price: 11.8
-INFO  | 2019-01-27 13:48:16 |                | Pre-order 10 | Status: packaging
-INFO  | 2019-01-27 13:48:18 | Order Window 3 | Order 8      | 2 x McFlurry 6.0
-INFO  | 2019-01-27 13:48:18 | Order Window 3 | Order 8      | Total price: 23.5
-INFO  | 2019-01-27 13:48:18 |                | Order 8      | Status: packaging
-INFO  | 2019-01-27 13:48:18 | Order Window 2 | Order 9      | 1 x McFlurry 3.0
-INFO  | 2019-01-27 13:48:18 | Order Window 2 | Order 9      | Total price: 19.9
-INFO  | 2019-01-27 13:48:18 |                | Order 9      | Status: packaging
-INFO  | 2019-01-27 13:48:18 | Order Window 1 | Order 6      | 3 x Coca Cola was brought!
-INFO  | 2019-01-27 13:48:18 |                | Order 6      | Status: ready
-INFO  | 2019-01-27 13:48:18 | Order Window 1 | Order 6      | Thank you for your order! Have a nice day!
-INFO  | 2019-01-27 13:48:18 | Order Window 1 | Order 11     | Hello! Make your order please!
-INFO  | 2019-01-27 13:48:18 |                | Pre-order 10 | 2 x Hamburger was packaged!
-INFO  | 2019-01-27 13:48:20 | Order Window 4 | Order 7      | 1 x McFlurry was brought!
-INFO  | 2019-01-27 13:48:20 | Order Window 1 | Order 11     | 1 x Hamburger 1.8
-INFO  | 2019-01-27 13:48:22 | Order Window 4 | Order 7      | 2 x Hamburger was brought!
-INFO  | 2019-01-27 13:48:22 | Order Window 2 | Order 9      | 2 x French Fries was brought!
-INFO  | 2019-01-27 13:48:22 | Order Window 3 | Order 8      | 1 x French Fries was brought!
-INFO  | 2019-01-27 13:48:22 | Order Window 1 | Order 11     | 2 x Coca Cola 4.4
-INFO  | 2019-01-27 13:48:22 |                | Pre-order 10 | 2 x French Fries was packaged!
-INFO  | 2019-01-27 13:48:24 | Order Window 2 | Order 9      | 1 x McChicken was brought!
-INFO  | 2019-01-27 13:48:24 | Order Window 1 | Order 11     | 2 x McChicken 8.6
-INFO  | 2019-01-27 13:48:25 | Order Window 3 | Order 8      | 3 x Coca Cola was brought!
-INFO  | 2019-01-27 13:48:25 |                | Pre-order 10 | 1 x Coca Cola was packaged!
-INFO  | 2019-01-27 13:48:25 |                | Pre-order 10 | Status: ready
-INFO  | 2019-01-27 13:48:25 | Order Window 2 | Pre-order 10 | Thank you for your order! Have a nice day!
-INFO  | 2019-01-27 13:48:25 |                | Pre-order 12 | 2 x Hamburger 3.6
-INFO  | 2019-01-27 13:48:25 |                | Pre-order 12 | 1 x Coca Cola 2.2
-INFO  | 2019-01-27 13:48:25 |                | Pre-order 12 | 2 x McChicken 8.6
-INFO  | 2019-01-27 13:48:25 |                | Pre-order 12 | 1 x McFlurry 3.0
-INFO  | 2019-01-27 13:48:25 |                | Pre-order 12 | Total price: 17.4
-INFO  | 2019-01-27 13:48:25 |                | Pre-order 12 | Status: packaging
-INFO  | 2019-01-27 13:48:26 | Order Window 4 | Order 7      | 1 x French Fries was brought!
-INFO  | 2019-01-27 13:48:26 | Order Window 1 | Order 11     | 1 x McFlurry 3.0
-INFO  | 2019-01-27 13:48:26 | Order Window 1 | Order 11     | Total price: 17.8
-INFO  | 2019-01-27 13:48:26 |                | Order 11     | Status: packaging
-INFO  | 2019-01-27 13:48:27 | Order Window 2 | Order 9      | 3 x Coca Cola was brought!
-INFO  | 2019-01-27 13:48:27 | Order Window 3 | Order 8      | 1 x McChicken was brought!
-INFO  | 2019-01-27 13:48:28 |                | Pre-order 12 | 1 x Coca Cola was packaged!
-INFO  | 2019-01-27 13:48:29 | Order Window 4 | Order 7      | 2 x Coca Cola was brought!
-INFO  | 2019-01-27 13:48:29 |                | Order 7      | Status: ready
-INFO  | 2019-01-27 13:48:29 | Order Window 4 | Order 7      | Thank you for your order! Have a nice day!
-INFO  | 2019-01-27 13:48:29 | Order Window 4 | Order 13     | Hello! Make your order please!
-INFO  | 2019-01-27 13:48:30 |                | Pre-order 12 | 2 x McChicken was packaged!
-INFO  | 2019-01-27 13:48:31 | Order Window 4 | Order 13     | 2 x Coca Cola 4.4
-INFO  | 2019-01-27 13:48:31 | Order Window 1 | Order 11     | 1 x McFlurry was brought!
-INFO  | 2019-01-27 13:48:32 | Order Window 2 | Order 9      | 1 x McFlurry was brought!
-INFO  | 2019-01-27 13:48:32 | Order Window 3 | Order 8      | 2 x McFlurry was brought!
-INFO  | 2019-01-27 13:48:32 |                | Order 9      | Status: ready
-INFO  | 2019-01-27 13:48:32 | Order Window 2 | Order 9      | Thank you for your order! Have a nice day!
-INFO  | 2019-01-27 13:48:32 | Order Window 2 | Order 14     | Hello! Make your order please!
-INFO  | 2019-01-27 13:48:32 |                | Pre-order 12 | 2 x Hamburger was packaged!
-INFO  | 2019-01-27 13:48:33 | Order Window 4 | Order 13     | 1 x McChicken 4.3
-INFO  | 2019-01-27 13:48:33 | Order Window 1 | Order 11     | 1 x Hamburger was brought!
-INFO  | 2019-01-27 13:48:34 | Order Window 3 | Order 8      | 2 x Hamburger was brought!
-INFO  | 2019-01-27 13:48:34 |                | Order 8      | Status: ready
-INFO  | 2019-01-27 13:48:34 | Order Window 3 | Order 8      | Thank you for your order! Have a nice day!
-INFO  | 2019-01-27 13:48:34 | Order Window 3 | Order 15     | Hello! Make your order please!
-INFO  | 2019-01-27 13:48:34 | Order Window 2 | Order 14     | 2 x Hamburger 3.6
-INFO  | 2019-01-27 13:48:35 | Order Window 4 | Order 13     | 2 x McFlurry 6.0
-INFO  | 2019-01-27 13:48:35 | Order Window 4 | Order 13     | Total price: 14.7
-INFO  | 2019-01-27 13:48:35 |                | Order 13     | Status: packaging
-INFO  | 2019-01-27 13:48:36 | Order Window 2 | Order 14     | 3 x Coca Cola 6.6
-INFO  | 2019-01-27 13:48:36 | Order Window 3 | Order 15     | 2 x Hamburger 3.6
-INFO  | 2019-01-27 13:48:36 | Order Window 1 | Order 11     | 2 x Coca Cola was brought!
-INFO  | 2019-01-27 13:48:37 |                | Pre-order 12 | 1 x McFlurry was packaged!
-INFO  | 2019-01-27 13:48:37 |                | Pre-order 12 | Status: ready
-INFO  | 2019-01-27 13:48:37 | Order Window 2 | Pre-order 12 | Thank you for your order! Have a nice day!
-INFO  | 2019-01-27 13:48:37 |                | Pre-order 16 | 1 x Coca Cola 2.2
-INFO  | 2019-01-27 13:48:37 |                | Pre-order 16 | 1 x McChicken 4.3
-INFO  | 2019-01-27 13:48:37 |                | Pre-order 16 | 1 x McFlurry 3.0
-INFO  | 2019-01-27 13:48:37 |                | Pre-order 16 | Total price: 9.5
-INFO  | 2019-01-27 13:48:37 |                | Pre-order 16 | Status: packaging
-INFO  | 2019-01-27 13:48:38 | Order Window 3 | Order 15     | 3 x Coca Cola 6.6
-INFO  | 2019-01-27 13:48:38 | Order Window 2 | Order 14     | 2 x McChicken 8.6
-INFO  | 2019-01-27 13:48:38 | Order Window 1 | Order 11     | 2 x McChicken was brought!
-INFO  | 2019-01-27 13:48:38 |                | Order 11     | Status: ready
-INFO  | 2019-01-27 13:48:38 | Order Window 1 | Order 11     | Thank you for your order! Have a nice day!
-INFO  | 2019-01-27 13:48:38 | Order Window 1 | Order 17     | Hello! Make your order please!
-INFO  | 2019-01-27 13:48:40 | Order Window 4 | Order 13     | 2 x McFlurry was brought!
-INFO  | 2019-01-27 13:48:40 | Order Window 3 | Order 15     | 1 x McChicken 4.3
-INFO  | 2019-01-27 13:48:40 | Order Window 2 | Order 14     | 1 x French Fries 3.0
-INFO  | 2019-01-27 13:48:40 | Order Window 1 | Order 17     | 1 x Hamburger 1.8
-INFO  | 2019-01-27 13:48:42 | Order Window 2 | Order 14     | 2 x McFlurry 6.0
-INFO  | 2019-01-27 13:48:42 | Order Window 3 | Order 15     | 2 x French Fries 6.0
-INFO  | 2019-01-27 13:48:42 | Order Window 2 | Order 14     | Total price: 27.8
-INFO  | 2019-01-27 13:48:42 |                | Order 14     | Status: packaging
-INFO  | 2019-01-27 13:48:42 | Order Window 1 | Order 17     | 1 x Coca Cola 2.2
-INFO  | 2019-01-27 13:48:42 |                | Pre-order 16 | 1 x McFlurry was packaged!
-INFO  | 2019-01-27 13:48:43 | Order Window 4 | Order 13     | 2 x Coca Cola was brought!
-INFO  | 2019-01-27 13:48:44 | Order Window 3 | Order 15     | 2 x McFlurry 6.0
-INFO  | 2019-01-27 13:48:44 | Order Window 3 | Order 15     | Total price: 26.5
-INFO  | 2019-01-27 13:48:44 |                | Order 15     | Status: packaging
-INFO  | 2019-01-27 13:48:44 | Order Window 1 | Order 17     | 1 x McChicken 4.3
-INFO  | 2019-01-27 13:48:44 |                | Pre-order 16 | 1 x McChicken was packaged!
-INFO  | 2019-01-27 13:48:45 | Order Window 4 | Order 13     | 1 x McChicken was brought!
-INFO  | 2019-01-27 13:48:45 |                | Order 13     | Status: ready
-INFO  | 2019-01-27 13:48:45 | Order Window 4 | Order 13     | Thank you for your order! Have a nice day!
-INFO  | 2019-01-27 13:48:45 | Order Window 4 | Order 18     | Hello! Make your order please!
-INFO  | 2019-01-27 13:48:46 | Order Window 2 | Order 14     | 1 x French Fries was brought!
-INFO  | 2019-01-27 13:48:46 | Order Window 1 | Order 17     | 2 x French Fries 6.0
-INFO  | 2019-01-27 13:48:47 | Order Window 4 | Order 18     | 1 x Coca Cola 2.2
-INFO  | 2019-01-27 13:48:47 |                | Pre-order 16 | 1 x Coca Cola was packaged!
-INFO  | 2019-01-27 13:48:47 |                | Pre-order 16 | Status: ready
-INFO  | 2019-01-27 13:48:47 | Order Window 4 | Pre-order 16 | Thank you for your order! Have a nice day!
-INFO  | 2019-01-27 13:48:47 |                | Pre-order 19 | 2 x Hamburger 3.6
-INFO  | 2019-01-27 13:48:47 |                | Pre-order 19 | 3 x Coca Cola 6.6
-INFO  | 2019-01-27 13:48:47 |                | Pre-order 19 | 1 x McChicken 4.3
-INFO  | 2019-01-27 13:48:47 |                | Pre-order 19 | 2 x French Fries 6.0
-INFO  | 2019-01-27 13:48:47 |                | Pre-order 19 | Total price: 20.5
-INFO  | 2019-01-27 13:48:47 |                | Pre-order 19 | Status: packaging
-INFO  | 2019-01-27 13:48:48 | Order Window 1 | Order 17     | 2 x McFlurry 6.0
-INFO  | 2019-01-27 13:48:48 | Order Window 1 | Order 17     | Total price: 20.3
-INFO  | 2019-01-27 13:48:48 |                | Order 17     | Status: packaging
-INFO  | 2019-01-27 13:48:49 | Order Window 4 | Order 18     | 2 x McChicken 8.6
-INFO  | 2019-01-27 13:48:49 | Order Window 3 | Order 15     | 2 x McFlurry was brought!
-INFO  | 2019-01-27 13:48:51 | Order Window 4 | Order 18     | 2 x French Fries 6.0
-INFO  | 2019-01-27 13:48:51 | Order Window 4 | Order 18     | Total price: 16.8
-INFO  | 2019-01-27 13:48:51 |                | Order 18     | Status: packaging
-INFO  | 2019-01-27 13:48:51 | Order Window 3 | Order 15     | 1 x McChicken was brought!
-INFO  | 2019-01-27 13:48:51 | Order Window 2 | Order 14     | 2 x McFlurry was brought!
-INFO  | 2019-01-27 13:48:51 |                | Pre-order 19 | 2 x French Fries was packaged!
-INFO  | 2019-01-27 13:48:52 | Order Window 1 | Order 17     | 2 x French Fries was brought!
-INFO  | 2019-01-27 13:48:53 | Order Window 2 | Order 14     | 2 x McChicken was brought!
-INFO  | 2019-01-27 13:48:53 |                | Pre-order 19 | 2 x Hamburger was packaged!
-INFO  | 2019-01-27 13:48:54 | Order Window 3 | Order 15     | 3 x Coca Cola was brought!
-INFO  | 2019-01-27 13:48:54 | Order Window 1 | Order 17     | 1 x McChicken was brought!
-INFO  | 2019-01-27 13:48:55 | Order Window 4 | Order 18     | 2 x French Fries was brought!
-INFO  | 2019-01-27 13:48:56 | Order Window 2 | Order 14     | 3 x Coca Cola was brought!
-INFO  | 2019-01-27 13:48:56 | Order Window 3 | Order 15     | 2 x Hamburger was brought!
-INFO  | 2019-01-27 13:48:56 |                | Pre-order 19 | 3 x Coca Cola was packaged!
-INFO  | 2019-01-27 13:48:58 | Order Window 4 | Order 18     | 1 x Coca Cola was brought!
-INFO  | 2019-01-27 13:48:58 | Order Window 2 | Order 14     | 2 x Hamburger was brought!
-INFO  | 2019-01-27 13:48:58 |                | Order 14     | Status: ready
-INFO  | 2019-01-27 13:48:58 | Order Window 2 | Order 14     | Thank you for your order! Have a nice day!
-INFO  | 2019-01-27 13:48:58 | Order Window 2 | Order 20     | Hello! Make your order please!
-INFO  | 2019-01-27 13:48:58 |                | Pre-order 19 | 1 x McChicken was packaged!
-INFO  | 2019-01-27 13:48:58 |                | Pre-order 19 | Status: ready
-INFO  | 2019-01-27 13:48:58 | Order Window 4 | Pre-order 19 | Thank you for your order! Have a nice day!
-INFO  | 2019-01-27 13:48:58 |                | Pre-order 21 | 1 x Hamburger 1.8
-INFO  | 2019-01-27 13:48:58 |                | Pre-order 21 | 3 x Coca Cola 6.6
-INFO  | 2019-01-27 13:48:58 |                | Pre-order 21 | 2 x McChicken 8.6
-INFO  | 2019-01-27 13:48:58 |                | Pre-order 21 | 2 x French Fries 6.0
-INFO  | 2019-01-27 13:48:58 |                | Pre-order 21 | 1 x McFlurry 3.0
-INFO  | 2019-01-27 13:48:58 |                | Pre-order 21 | Total price: 26.0
-INFO  | 2019-01-27 13:48:58 |                | Pre-order 21 | Status: packaging
-INFO  | 2019-01-27 13:48:59 | Order Window 1 | Order 17     | 2 x McFlurry was brought!
-INFO  | 2019-01-27 13:49:00 | Order Window 4 | Order 18     | 2 x McChicken was brought!
-INFO  | 2019-01-27 13:49:00 |                | Order 18     | Status: ready
-INFO  | 2019-01-27 13:49:00 | Order Window 4 | Order 18     | Thank you for your order! Have a nice day!
-INFO  | 2019-01-27 13:49:00 | Order Window 4 | Order 22     | Hello! Make your order please!
-INFO  | 2019-01-27 13:49:00 | Order Window 3 | Order 15     | 2 x French Fries was brought!
-INFO  | 2019-01-27 13:49:00 | Order Window 2 | Order 20     | 1 x Coca Cola 2.2
-INFO  | 2019-01-27 13:49:00 |                | Order 15     | Status: ready
-INFO  | 2019-01-27 13:49:00 | Order Window 3 | Order 15     | Thank you for your order! Have a nice day!
-INFO  | 2019-01-27 13:49:00 | Order Window 3 | Order 23     | Hello! Make your order please!
-INFO  | 2019-01-27 13:49:01 | Order Window 1 | Order 17     | 1 x Hamburger was brought!
-INFO  | 2019-01-27 13:49:01 |                | Pre-order 21 | 3 x Coca Cola was packaged!
-INFO  | 2019-01-27 13:49:02 | Order Window 4 | Order 22     | 3 x Coca Cola 6.6
-INFO  | 2019-01-27 13:49:02 | Order Window 3 | Order 23     | 1 x Hamburger 1.8
-INFO  | 2019-01-27 13:49:02 | Order Window 2 | Order 20     | 1 x French Fries 3.0
-INFO  | 2019-01-27 13:49:04 | Order Window 4 | Order 22     | 2 x McChicken 8.6
-INFO  | 2019-01-27 13:49:04 | Order Window 2 | Order 20     | 1 x McFlurry 3.0
-INFO  | 2019-01-27 13:49:04 | Order Window 3 | Order 23     | 3 x Coca Cola 6.6
-INFO  | 2019-01-27 13:49:04 | Order Window 2 | Order 20     | Total price: 8.2
-INFO  | 2019-01-27 13:49:04 |                | Order 20     | Status: packaging
-INFO  | 2019-01-27 13:49:04 | Order Window 1 | Order 17     | 1 x Coca Cola was brought!
-INFO  | 2019-01-27 13:49:04 |                | Order 17     | Status: ready
-INFO  | 2019-01-27 13:49:04 | Order Window 1 | Order 17     | Thank you for your order! Have a nice day!
-INFO  | 2019-01-27 13:49:04 | Order Window 1 | Order 24     | Hello! Make your order please!
-INFO  | 2019-01-27 13:49:06 | Order Window 4 | Order 22     | 1 x French Fries 3.0
-INFO  | 2019-01-27 13:49:06 | Order Window 3 | Order 23     | 2 x McChicken 8.6
-INFO  | 2019-01-27 13:49:06 | Order Window 1 | Order 24     | 1 x Hamburger 1.8
-INFO  | 2019-01-27 13:49:06 |                | Pre-order 21 | 1 x McFlurry was packaged!
-INFO  | 2019-01-27 13:49:07 | Order Window 2 | Order 20     | 1 x Coca Cola was brought!
-INFO  | 2019-01-27 13:49:08 | Order Window 4 | Order 22     | 2 x McFlurry 6.0
-INFO  | 2019-01-27 13:49:08 | Order Window 4 | Order 22     | Total price: 24.2
-INFO  | 2019-01-27 13:49:08 |                | Order 22     | Status: packaging
-INFO  | 2019-01-27 13:49:08 | Order Window 3 | Order 23     | 2 x French Fries 6.0
-INFO  | 2019-01-27 13:49:08 | Order Window 1 | Order 24     | 3 x Coca Cola 6.6
-INFO  | 2019-01-27 13:49:10 | Order Window 3 | Order 23     | 2 x McFlurry 6.0
-INFO  | 2019-01-27 13:49:10 | Order Window 3 | Order 23     | Total price: 29.0
-INFO  | 2019-01-27 13:49:10 |                | Order 23     | Status: packaging
-INFO  | 2019-01-27 13:49:10 | Order Window 1 | Order 24     | 1 x French Fries 3.0
-INFO  | 2019-01-27 13:49:10 | Order Window 1 | Order 24     | Total price: 11.4
-INFO  | 2019-01-27 13:49:10 |                | Order 24     | Status: packaging
-INFO  | 2019-01-27 13:49:10 |                | Pre-order 21 | 2 x French Fries was packaged!
-INFO  | 2019-01-27 13:49:11 | Order Window 4 | Order 22     | 3 x Coca Cola was brought!
-INFO  | 2019-01-27 13:49:11 | Order Window 2 | Order 20     | 1 x French Fries was brought!
-INFO  | 2019-01-27 13:49:12 | Order Window 3 | Order 23     | 2 x McChicken was brought!
-INFO  | 2019-01-27 13:49:12 |                | Pre-order 21 | 1 x Hamburger was packaged!
-INFO  | 2019-01-27 13:49:13 | Order Window 4 | Order 22     | 2 x McChicken was brought!
-INFO  | 2019-01-27 13:49:14 | Order Window 1 | Order 24     | 1 x French Fries was brought!
-INFO  | 2019-01-27 13:49:14 |                | Pre-order 21 | 2 x McChicken was packaged!
-INFO  | 2019-01-27 13:49:14 |                | Pre-order 21 | Status: ready
-INFO  | 2019-01-27 13:49:14 | Order Window 3 | Pre-order 21 | Thank you for your order! Have a nice day!
-INFO  | 2019-01-27 13:49:14 |                | Pre-order 25 | 1 x Hamburger 1.8
-INFO  | 2019-01-27 13:49:14 |                | Pre-order 25 | 2 x Coca Cola 4.4
-INFO  | 2019-01-27 13:49:14 |                | Pre-order 25 | 2 x McChicken 8.6
-INFO  | 2019-01-27 13:49:14 |                | Pre-order 25 | 2 x McFlurry 6.0
-INFO  | 2019-01-27 13:49:14 |                | Pre-order 25 | Total price: 20.8
-INFO  | 2019-01-27 13:49:14 |                | Pre-order 25 | Status: packaging
-INFO  | 2019-01-27 13:49:16 | Order Window 2 | Order 20     | 1 x McFlurry was brought!
-INFO  | 2019-01-27 13:49:16 |                | Order 20     | Status: ready
-INFO  | 2019-01-27 13:49:16 | Order Window 2 | Order 20     | Thank you for your order! Have a nice day!
-INFO  | 2019-01-27 13:49:16 | Order Window 2 | Order 26     | Hello! Make your order please!
-INFO  | 2019-01-27 13:49:16 | Order Window 1 | Order 24     | 1 x Hamburger was brought!
-INFO  | 2019-01-27 13:49:17 | Order Window 4 | Order 22     | 1 x French Fries was brought!
-INFO  | 2019-01-27 13:49:17 | Order Window 3 | Order 23     | 2 x McFlurry was brought!
-INFO  | 2019-01-27 13:49:18 | Order Window 2 | Order 26     | 1 x Hamburger 1.8
-INFO  | 2019-01-27 13:49:19 | Order Window 1 | Order 24     | 3 x Coca Cola was brought!
-INFO  | 2019-01-27 13:49:19 |                | Order 24     | Status: ready
-INFO  | 2019-01-27 13:49:19 | Order Window 1 | Order 24     | Thank you for your order! Have a nice day!
-INFO  | 2019-01-27 13:49:19 | Order Window 1 | Order 27     | Hello! Make your order please!
-INFO  | 2019-01-27 13:49:19 |                | Pre-order 25 | 2 x McFlurry was packaged!
-INFO  | 2019-01-27 13:49:20 | Order Window 2 | Order 26     | 2 x Coca Cola 4.4
-INFO  | 2019-01-27 13:49:21 | Order Window 3 | Order 23     | 2 x French Fries was brought!
-INFO  | 2019-01-27 13:49:21 | Order Window 1 | Order 27     | 1 x Coca Cola 2.2
-INFO  | 2019-01-27 13:49:21 |                | Pre-order 25 | 2 x McChicken was packaged!
-INFO  | 2019-01-27 13:49:22 | Order Window 4 | Order 22     | 2 x McFlurry was brought!
-INFO  | 2019-01-27 13:49:22 |                | Order 22     | Status: ready
-INFO  | 2019-01-27 13:49:22 | Order Window 4 | Order 22     | Thank you for your order! Have a nice day!
-INFO  | 2019-01-27 13:49:22 | Order Window 4 | Order 28     | Hello! Make your order please!
-INFO  | 2019-01-27 13:49:22 | Order Window 2 | Order 26     | 2 x McChicken 8.6
-INFO  | 2019-01-27 13:49:23 | Order Window 1 | Order 27     | 1 x McChicken 4.3
-INFO  | 2019-01-27 13:49:23 |                | Pre-order 25 | 1 x Hamburger was packaged!
-INFO  | 2019-01-27 13:49:24 | Order Window 4 | Order 28     | 1 x Hamburger 1.8
-INFO  | 2019-01-27 13:49:24 | Order Window 2 | Order 26     | 1 x French Fries 3.0
-INFO  | 2019-01-27 13:49:24 | Order Window 3 | Order 23     | 3 x Coca Cola was brought!
-INFO  | 2019-01-27 13:49:25 | Order Window 1 | Order 27     | 2 x McFlurry 6.0
-INFO  | 2019-01-27 13:49:25 | Order Window 1 | Order 27     | Total price: 12.5
-INFO  | 2019-01-27 13:49:25 |                | Order 27     | Status: packaging
-INFO  | 2019-01-27 13:49:26 | Order Window 4 | Order 28     | 2 x Coca Cola 4.4
-INFO  | 2019-01-27 13:49:26 | Order Window 2 | Order 26     | 2 x McFlurry 6.0
-INFO  | 2019-01-27 13:49:26 | Order Window 2 | Order 26     | Total price: 23.8
-INFO  | 2019-01-27 13:49:26 |                | Order 26     | Status: packaging
-INFO  | 2019-01-27 13:49:26 | Order Window 3 | Order 23     | 1 x Hamburger was brought!
-INFO  | 2019-01-27 13:49:26 |                | Order 23     | Status: ready
-INFO  | 2019-01-27 13:49:26 | Order Window 3 | Order 23     | Thank you for your order! Have a nice day!
-INFO  | 2019-01-27 13:49:26 | Order Window 3 | Order 29     | Hello! Make your order please!
-INFO  | 2019-01-27 13:49:26 |                | Pre-order 25 | 2 x Coca Cola was packaged!
-INFO  | 2019-01-27 13:49:26 |                | Pre-order 25 | Status: ready
-INFO  | 2019-01-27 13:49:26 | Order Window 2 | Pre-order 25 | Thank you for your order! Have a nice day!
-INFO  | 2019-01-27 13:49:26 |                | Pre-order 30 | 2 x Coca Cola 4.4
-INFO  | 2019-01-27 13:49:26 |                | Pre-order 30 | 1 x McChicken 4.3
-INFO  | 2019-01-27 13:49:26 |                | Pre-order 30 | 2 x French Fries 6.0
-INFO  | 2019-01-27 13:49:26 |                | Pre-order 30 | Total price: 14.7
-INFO  | 2019-01-27 13:49:26 |                | Pre-order 30 | Status: packaging
-INFO  | 2019-01-27 13:49:28 | Order Window 4 | Order 28     | 2 x McChicken 8.6
-INFO  | 2019-01-27 13:49:28 | Order Window 2 | Order 26     | 2 x McChicken was brought!
-INFO  | 2019-01-27 13:49:28 | Order Window 3 | Order 29     | 3 x Coca Cola 6.6
-INFO  | 2019-01-27 13:49:28 |                | Pre-order 30 | 1 x McChicken was packaged!
-INFO  | 2019-01-27 13:49:30 | Order Window 4 | Order 28     | 2 x McFlurry 6.0
-INFO  | 2019-01-27 13:49:30 | Order Window 4 | Order 28     | Total price: 20.8
-INFO  | 2019-01-27 13:49:30 |                | Order 28     | Status: packaging
-INFO  | 2019-01-27 13:49:30 | Order Window 3 | Order 29     | 1 x French Fries 3.0
-INFO  | 2019-01-27 13:49:30 | Order Window 1 | Order 27     | 2 x McFlurry was brought!
-INFO  | 2019-01-27 13:49:31 | Order Window 2 | Order 26     | 2 x Coca Cola was brought!
-INFO  | 2019-01-27 13:49:31 |                | Pre-order 30 | 2 x Coca Cola was packaged!
-INFO  | 2019-01-27 13:49:32 | Order Window 4 | Order 28     | 2 x McChicken was brought!
-INFO  | 2019-01-27 13:49:32 | Order Window 3 | Order 29     | 2 x McFlurry 6.0
-INFO  | 2019-01-27 13:49:32 | Order Window 3 | Order 29     | Total price: 15.6
-INFO  | 2019-01-27 13:49:32 |                | Order 29     | Status: packaging
-INFO  | 2019-01-27 13:49:33 | Order Window 1 | Order 27     | 1 x Coca Cola was brought!
-INFO  | 2019-01-27 13:49:34 | Order Window 4 | Order 28     | 1 x Hamburger was brought!
-INFO  | 2019-01-27 13:49:35 | Order Window 1 | Order 27     | 1 x McChicken was brought!
-INFO  | 2019-01-27 13:49:35 |                | Order 27     | Status: ready
-INFO  | 2019-01-27 13:49:35 | Order Window 1 | Order 27     | Thank you for your order! Have a nice day!
-INFO  | 2019-01-27 13:49:35 | Order Window 1 | Order 31     | Hello! Make your order please!
-INFO  | 2019-01-27 13:49:35 |                | Pre-order 30 | 2 x French Fries was packaged!
-INFO  | 2019-01-27 13:49:35 |                | Pre-order 30 | Status: ready
-INFO  | 2019-01-27 13:49:35 | Order Window 2 | Pre-order 30 | Thank you for your order! Have a nice day!
-INFO  | 2019-01-27 13:49:35 |                | Pre-order 32 | 2 x Hamburger 3.6
-INFO  | 2019-01-27 13:49:35 |                | Pre-order 32 | 2 x Coca Cola 4.4
-INFO  | 2019-01-27 13:49:35 |                | Pre-order 32 | 1 x McChicken 4.3
-INFO  | 2019-01-27 13:49:35 |                | Pre-order 32 | 2 x French Fries 6.0
-INFO  | 2019-01-27 13:49:35 |                | Pre-order 32 | Total price: 18.3
-INFO  | 2019-01-27 13:49:35 |                | Pre-order 32 | Status: packaging
-INFO  | 2019-01-27 13:49:36 | Order Window 2 | Order 26     | 2 x McFlurry was brought!
-INFO  | 2019-01-27 13:49:36 | Order Window 3 | Order 29     | 1 x French Fries was brought!
-INFO  | 2019-01-27 13:49:37 | Order Window 4 | Order 28     | 2 x Coca Cola was brought!
-INFO  | 2019-01-27 13:49:37 | Order Window 1 | Order 31     | 1 x Hamburger 1.8
-INFO  | 2019-01-27 13:49:38 | Order Window 2 | Order 26     | 1 x Hamburger was brought!
-INFO  | 2019-01-27 13:49:38 |                | Pre-order 32 | 2 x Coca Cola was packaged!
-INFO  | 2019-01-27 13:49:39 | Order Window 3 | Order 29     | 3 x Coca Cola was brought!
-INFO  | 2019-01-27 13:49:39 | Order Window 1 | Order 31     | 3 x Coca Cola 6.6
-INFO  | 2019-01-27 13:49:40 |                | Pre-order 32 | 2 x Hamburger was packaged!
-INFO  | 2019-01-27 13:49:41 | Order Window 1 | Order 31     | 2 x McChicken 8.6
-INFO  | 2019-01-27 13:49:42 | Order Window 4 | Order 28     | 2 x McFlurry was brought!
-INFO  | 2019-01-27 13:49:42 | Order Window 2 | Order 26     | 1 x French Fries was brought!
-INFO  | 2019-01-27 13:49:42 |                | Order 28     | Status: ready
-INFO  | 2019-01-27 13:49:42 |                | Order 26     | Status: ready
-INFO  | 2019-01-27 13:49:42 | Order Window 2 | Order 26     | Thank you for your order! Have a nice day!
-INFO  | 2019-01-27 13:49:42 | Order Window 4 | Order 28     | Thank you for your order! Have a nice day!
-INFO  | 2019-01-27 13:49:42 | Order Window 2 | Order 33     | Hello! Make your order please!
-INFO  | 2019-01-27 13:49:42 | Order Window 4 | Order 34     | Hello! Make your order please!
-INFO  | 2019-01-27 13:49:42 |                | Pre-order 32 | 1 x McChicken was packaged!
-INFO  | 2019-01-27 13:49:43 | Order Window 1 | Order 31     | 2 x McFlurry 6.0
-INFO  | 2019-01-27 13:49:43 | Order Window 1 | Order 31     | Total price: 23.0
-INFO  | 2019-01-27 13:49:43 |                | Order 31     | Status: packaging
-INFO  | 2019-01-27 13:49:44 | Order Window 2 | Order 33     | 1 x Hamburger 1.8
-INFO  | 2019-01-27 13:49:44 | Order Window 4 | Order 34     | 2 x Hamburger 3.6
-INFO  | 2019-01-27 13:49:44 | Order Window 3 | Order 29     | 2 x McFlurry was brought!
-INFO  | 2019-01-27 13:49:44 |                | Order 29     | Status: ready
-INFO  | 2019-01-27 13:49:44 | Order Window 3 | Order 29     | Thank you for your order! Have a nice day!
-INFO  | 2019-01-27 13:49:44 | Order Window 3 | Order 35     | Hello! Make your order please!
-INFO  | 2019-01-27 13:49:45 | Order Window 1 | Order 31     | 1 x Hamburger was brought!
-INFO  | 2019-01-27 13:49:46 | Order Window 4 | Order 34     | 3 x Coca Cola 6.6
-INFO  | 2019-01-27 13:49:46 | Order Window 2 | Order 33     | 1 x Coca Cola 2.2
-INFO  | 2019-01-27 13:49:46 | Order Window 2 | Order 33     | Total price: 4.0
-INFO  | 2019-01-27 13:49:46 | Order Window 3 | Order 35     | 1 x Coca Cola 2.2
-INFO  | 2019-01-27 13:49:46 |                | Order 33     | Status: packaging
-INFO  | 2019-01-27 13:49:46 |                | Pre-order 32 | 2 x French Fries was packaged!
-INFO  | 2019-01-27 13:49:46 |                | Pre-order 32 | Status: ready
-INFO  | 2019-01-27 13:49:46 | Order Window 2 | Pre-order 32 | Thank you for your order! Have a nice day!
-INFO  | 2019-01-27 13:49:46 |                | Pre-order 36 | 3 x Coca Cola 6.6
-INFO  | 2019-01-27 13:49:46 |                | Pre-order 36 | 1 x French Fries 3.0
-INFO  | 2019-01-27 13:49:46 |                | Pre-order 36 | 2 x McFlurry 6.0
-INFO  | 2019-01-27 13:49:46 |                | Pre-order 36 | Total price: 15.6
-INFO  | 2019-01-27 13:49:46 |                | Pre-order 36 | Status: packaging
-INFO  | 2019-01-27 13:49:48 | Order Window 4 | Order 34     | 2 x McChicken 8.6
-INFO  | 2019-01-27 13:49:48 | Order Window 3 | Order 35     | 1 x McChicken 4.3
-INFO  | 2019-01-27 13:49:48 | Order Window 2 | Order 33     | 1 x Hamburger was brought!
-INFO  | 2019-01-27 13:49:48 | Order Window 1 | Order 31     | 3 x Coca Cola was brought!
-INFO  | 2019-01-27 13:49:50 | Order Window 4 | Order 34     | 2 x McFlurry 6.0
-INFO  | 2019-01-27 13:49:50 | Order Window 4 | Order 34     | Total price: 24.8
-INFO  | 2019-01-27 13:49:50 |                | Order 34     | Status: packaging
-INFO  | 2019-01-27 13:49:50 | Order Window 3 | Order 35     | 2 x McFlurry 6.0
-INFO  | 2019-01-27 13:49:50 | Order Window 3 | Order 35     | Total price: 12.5
-INFO  | 2019-01-27 13:49:50 |                | Order 35     | Status: packaging
-INFO  | 2019-01-27 13:49:50 |                | Pre-order 36 | 1 x French Fries was packaged!
-INFO  | 2019-01-27 13:49:51 | Order Window 2 | Order 33     | 1 x Coca Cola was brought!
-INFO  | 2019-01-27 13:49:51 |                | Order 33     | Status: ready
-INFO  | 2019-01-27 13:49:51 | Order Window 2 | Order 33     | Thank you for your order! Have a nice day!
-INFO  | 2019-01-27 13:49:51 | Order Window 2 | Order 37     | Hello! Make your order please!
-INFO  | 2019-01-27 13:49:52 | Order Window 4 | Order 34     | 2 x Hamburger was brought!
-INFO  | 2019-01-27 13:49:53 | Order Window 3 | Order 35     | 1 x Coca Cola was brought!
-INFO  | 2019-01-27 13:49:53 | Order Window 2 | Order 37     | 3 x Coca Cola 6.6
-INFO  | 2019-01-27 13:49:53 | Order Window 1 | Order 31     | 2 x McFlurry was brought!
-INFO  | 2019-01-27 13:49:53 |                | Pre-order 36 | 3 x Coca Cola was packaged!
-INFO  | 2019-01-27 13:49:55 | Order Window 4 | Order 34     | 3 x Coca Cola was brought!
-INFO  | 2019-01-27 13:49:55 | Order Window 2 | Order 37     | 1 x McChicken 4.3
-INFO  | 2019-01-27 13:49:55 | Order Window 1 | Order 31     | 2 x McChicken was brought!
-INFO  | 2019-01-27 13:49:55 |                | Order 31     | Status: ready
-INFO  | 2019-01-27 13:49:55 | Order Window 1 | Order 31     | Thank you for your order! Have a nice day!
-INFO  | 2019-01-27 13:49:55 | Order Window 1 | Order 38     | Hello! Make your order please!
-INFO  | 2019-01-27 13:49:57 | Order Window 2 | Order 37     | 1 x French Fries 3.0
-INFO  | 2019-01-27 13:49:57 | Order Window 1 | Order 38     | 2 x Hamburger 3.6
-INFO  | 2019-01-27 13:49:58 | Order Window 3 | Order 35     | 2 x McFlurry was brought!
-INFO  | 2019-01-27 13:49:58 |                | Pre-order 36 | 2 x McFlurry was packaged!
-INFO  | 2019-01-27 13:49:58 |                | Pre-order 36 | Status: ready
-INFO  | 2019-01-27 13:49:58 | Order Window 1 | Pre-order 36 | Thank you for your order! Have a nice day!
-INFO  | 2019-01-27 13:49:58 |                | Pre-order 39 | 1 x Hamburger 1.8
-INFO  | 2019-01-27 13:49:58 |                | Pre-order 39 | 3 x Coca Cola 6.6
-INFO  | 2019-01-27 13:49:58 |                | Pre-order 39 | 1 x McChicken 4.3
-INFO  | 2019-01-27 13:49:58 |                | Pre-order 39 | 1 x French Fries 3.0
-INFO  | 2019-01-27 13:49:58 |                | Pre-order 39 | 2 x McFlurry 6.0
-INFO  | 2019-01-27 13:49:58 |                | Pre-order 39 | Total price: 21.7
-INFO  | 2019-01-27 13:49:58 |                | Pre-order 39 | Status: packaging
-INFO  | 2019-01-27 13:49:59 | Order Window 2 | Order 37     | 1 x McFlurry 3.0
-INFO  | 2019-01-27 13:49:59 | Order Window 2 | Order 37     | Total price: 16.9
-INFO  | 2019-01-27 13:49:59 |                | Order 37     | Status: packaging
-INFO  | 2019-01-27 13:49:59 | Order Window 1 | Order 38     | 3 x Coca Cola 6.6
-INFO  | 2019-01-27 13:50:00 | Order Window 4 | Order 34     | 2 x McFlurry was brought!
-INFO  | 2019-01-27 13:50:00 | Order Window 3 | Order 35     | 1 x McChicken was brought!
-INFO  | 2019-01-27 13:50:00 |                | Order 35     | Status: ready
-INFO  | 2019-01-27 13:50:00 | Order Window 3 | Order 35     | Thank you for your order! Have a nice day!
-INFO  | 2019-01-27 13:50:00 | Order Window 3 | Order 40     | Hello! Make your order please!
-INFO  | 2019-01-27 13:50:01 | Order Window 2 | Order 37     | 1 x McChicken was brought!
-INFO  | 2019-01-27 13:50:01 | Order Window 1 | Order 38     | 1 x McChicken 4.3
-INFO  | 2019-01-27 13:50:01 |                | Pre-order 39 | 3 x Coca Cola was packaged!
-INFO  | 2019-01-27 13:50:02 | Order Window 4 | Order 34     | 2 x McChicken was brought!
-INFO  | 2019-01-27 13:50:02 |                | Order 34     | Status: ready
-INFO  | 2019-01-27 13:50:02 | Order Window 4 | Order 34     | Thank you for your order! Have a nice day!
-INFO  | 2019-01-27 13:50:02 | Order Window 3 | Order 40     | 1 x Hamburger 1.8
-INFO  | 2019-01-27 13:50:02 | Order Window 4 | Order 41     | Hello! Make your order please!
-INFO  | 2019-01-27 13:50:03 | Order Window 1 | Order 38     | 2 x French Fries 6.0
-INFO  | 2019-01-27 13:50:03 |                | Pre-order 39 | 1 x Hamburger was packaged!
-INFO  | 2019-01-27 13:50:04 | Order Window 4 | Order 41     | 2 x Hamburger 3.6
-INFO  | 2019-01-27 13:50:04 | Order Window 3 | Order 40     | 1 x Coca Cola 2.2
-INFO  | 2019-01-27 13:50:05 | Order Window 1 | Order 38     | 1 x McFlurry 3.0
-INFO  | 2019-01-27 13:50:05 | Order Window 1 | Order 38     | Total price: 23.5
-INFO  | 2019-01-27 13:50:05 |                | Order 38     | Status: packaging
-INFO  | 2019-01-27 13:50:05 |                | Pre-order 39 | 1 x McChicken was packaged!
-INFO  | 2019-01-27 13:50:06 | Order Window 4 | Order 41     | 1 x Coca Cola 2.2
-INFO  | 2019-01-27 13:50:06 | Order Window 3 | Order 40     | 2 x French Fries 6.0
-INFO  | 2019-01-27 13:50:06 | Order Window 3 | Order 40     | Total price: 10.0
-INFO  | 2019-01-27 13:50:06 |                | Order 40     | Status: packaging
-INFO  | 2019-01-27 13:50:06 | Order Window 2 | Order 37     | 1 x McFlurry was brought!
-INFO  | 2019-01-27 13:50:08 | Order Window 4 | Order 41     | 1 x French Fries 3.0
-INFO  | 2019-01-27 13:50:08 | Order Window 1 | Order 38     | 3 x Coca Cola was brought!
-INFO  | 2019-01-27 13:50:09 | Order Window 2 | Order 37     | 3 x Coca Cola was brought!
-INFO  | 2019-01-27 13:50:10 | Order Window 3 | Order 40     | 2 x French Fries was brought!
-INFO  | 2019-01-27 13:50:10 | Order Window 4 | Order 41     | 2 x McFlurry 6.0
-INFO  | 2019-01-27 13:50:10 | Order Window 4 | Order 41     | Total price: 14.8
-INFO  | 2019-01-27 13:50:10 |                | Order 41     | Status: packaging
-INFO  | 2019-01-27 13:50:10 |                | Pre-order 39 | 2 x McFlurry was packaged!
-INFO  | 2019-01-27 13:50:12 | Order Window 1 | Order 38     | 2 x French Fries was brought!
-INFO  | 2019-01-27 13:50:13 | Order Window 3 | Order 40     | 1 x Coca Cola was brought!
-INFO  | 2019-01-27 13:50:13 | Order Window 2 | Order 37     | 1 x French Fries was brought!
-INFO  | 2019-01-27 13:50:13 |                | Order 37     | Status: ready
-INFO  | 2019-01-27 13:50:13 | Order Window 2 | Order 37     | Thank you for your order! Have a nice day!
-INFO  | 2019-01-27 13:50:13 | Order Window 2 | Order 42     | Hello! Make your order please!
-INFO  | 2019-01-27 13:50:14 | Order Window 4 | Order 41     | 1 x French Fries was brought!
-INFO  | 2019-01-27 13:50:14 | Order Window 1 | Order 38     | 2 x Hamburger was brought!
-INFO  | 2019-01-27 13:50:14 |                | Pre-order 39 | 1 x French Fries was packaged!
-INFO  | 2019-01-27 13:50:14 |                | Pre-order 39 | Status: ready
-INFO  | 2019-01-27 13:50:14 | Order Window 3 | Pre-order 39 | Thank you for your order! Have a nice day!
-INFO  | 2019-01-27 13:50:14 |                | Pre-order 43 | 1 x Hamburger 1.8
-INFO  | 2019-01-27 13:50:14 |                | Pre-order 43 | 1 x Coca Cola 2.2
-INFO  | 2019-01-27 13:50:14 |                | Pre-order 43 | 2 x McChicken 8.6
-INFO  | 2019-01-27 13:50:14 |                | Pre-order 43 | 1 x French Fries 3.0
-INFO  | 2019-01-27 13:50:14 |                | Pre-order 43 | Total price: 15.6
-INFO  | 2019-01-27 13:50:14 |                | Pre-order 43 | Status: packaging
-INFO  | 2019-01-27 13:50:15 | Order Window 3 | Order 40     | 1 x Hamburger was brought!
-INFO  | 2019-01-27 13:50:15 |                | Order 40     | Status: ready
-INFO  | 2019-01-27 13:50:15 | Order Window 3 | Order 40     | Thank you for your order! Have a nice day!
-INFO  | 2019-01-27 13:50:15 | Order Window 3 | Order 44     | Hello! Make your order please!
-INFO  | 2019-01-27 13:50:15 | Order Window 2 | Order 42     | 2 x Hamburger 3.6
-INFO  | 2019-01-27 13:50:16 | Order Window 1 | Order 38     | 1 x McChicken was brought!
-INFO  | 2019-01-27 13:50:16 |                | Pre-order 43 | 2 x McChicken was packaged!
-INFO  | 2019-01-27 13:50:17 | Order Window 4 | Order 41     | 1 x Coca Cola was brought!
-INFO  | 2019-01-27 13:50:17 | Order Window 3 | Order 44     | 1 x Hamburger 1.8
-INFO  | 2019-01-27 13:50:17 | Order Window 2 | Order 42     | 3 x Coca Cola 6.6
-INFO  | 2019-01-27 13:50:19 | Order Window 4 | Order 41     | 2 x Hamburger was brought!
-INFO  | 2019-01-27 13:50:19 | Order Window 3 | Order 44     | 1 x Coca Cola 2.2
-INFO  | 2019-01-27 13:50:19 | Order Window 2 | Order 42     | 2 x French Fries 6.0
-INFO  | 2019-01-27 13:50:20 |                | Pre-order 43 | 1 x French Fries was packaged!
-INFO  | 2019-01-27 13:50:21 | Order Window 3 | Order 44     | 1 x McChicken 4.3
-INFO  | 2019-01-27 13:50:21 | Order Window 2 | Order 42     | 1 x McFlurry 3.0
-INFO  | 2019-01-27 13:50:21 | Order Window 2 | Order 42     | Total price: 19.2
-INFO  | 2019-01-27 13:50:21 |                | Order 42     | Status: packaging
-INFO  | 2019-01-27 13:50:21 | Order Window 1 | Order 38     | 1 x McFlurry was brought!
-INFO  | 2019-01-27 13:50:21 |                | Order 38     | Status: ready
-INFO  | 2019-01-27 13:50:21 | Order Window 1 | Order 38     | Thank you for your order! Have a nice day!
-INFO  | 2019-01-27 13:50:21 | Order Window 1 | Order 45     | Hello! Make your order please!
-INFO  | 2019-01-27 13:50:23 | Order Window 3 | Order 44     | 2 x McFlurry 6.0
-INFO  | 2019-01-27 13:50:23 | Order Window 3 | Order 44     | Total price: 14.3
-INFO  | 2019-01-27 13:50:23 |                | Order 44     | Status: packaging
-INFO  | 2019-01-27 13:50:23 | Order Window 1 | Order 45     | 1 x Coca Cola 2.2
-INFO  | 2019-01-27 13:50:23 |                | Pre-order 43 | 1 x Coca Cola was packaged!
-INFO  | 2019-01-27 13:50:24 | Order Window 4 | Order 41     | 2 x McFlurry was brought!
-INFO  | 2019-01-27 13:50:24 |                | Order 41     | Status: ready
-INFO  | 2019-01-27 13:50:24 | Order Window 4 | Order 41     | Thank you for your order! Have a nice day!
-INFO  | 2019-01-27 13:50:24 | Order Window 4 | Order 46     | Hello! Make your order please!
-INFO  | 2019-01-27 13:50:25 | Order Window 2 | Order 42     | 2 x French Fries was brought!
-INFO  | 2019-01-27 13:50:25 | Order Window 1 | Order 45     | 2 x McChicken 8.6
-INFO  | 2019-01-27 13:50:25 |                | Pre-order 43 | 1 x Hamburger was packaged!
-INFO  | 2019-01-27 13:50:25 |                | Pre-order 43 | Status: ready
-INFO  | 2019-01-27 13:50:25 | Order Window 2 | Pre-order 43 | Thank you for your order! Have a nice day!
-INFO  | 2019-01-27 13:50:25 |                | Pre-order 47 | 1 x Hamburger 1.8
-INFO  | 2019-01-27 13:50:25 |                | Pre-order 47 | 1 x Coca Cola 2.2
-INFO  | 2019-01-27 13:50:25 |                | Pre-order 47 | 2 x McChicken 8.6
-INFO  | 2019-01-27 13:50:25 |                | Pre-order 47 | 2 x French Fries 6.0
-INFO  | 2019-01-27 13:50:25 |                | Pre-order 47 | 2 x McFlurry 6.0
-INFO  | 2019-01-27 13:50:25 |                | Pre-order 47 | Total price: 24.6
-INFO  | 2019-01-27 13:50:25 |                | Pre-order 47 | Status: packaging
-INFO  | 2019-01-27 13:50:26 | Order Window 4 | Order 46     | 2 x Hamburger 3.6
-INFO  | 2019-01-27 13:50:26 | Order Window 3 | Order 44     | 1 x Coca Cola was brought!
-INFO  | 2019-01-27 13:50:27 | Order Window 1 | Order 45     | 2 x McFlurry 6.0
-INFO  | 2019-01-27 13:50:27 | Order Window 1 | Order 45     | Total price: 16.8
-INFO  | 2019-01-27 13:50:27 |                | Order 45     | Status: packaging
-INFO  | 2019-01-27 13:50:28 | Order Window 4 | Order 46     | 3 x Coca Cola 6.6
-INFO  | 2019-01-27 13:50:28 | Order Window 3 | Order 44     | 1 x Hamburger was brought!
-INFO  | 2019-01-27 13:50:28 | Order Window 2 | Order 42     | 3 x Coca Cola was brought!
-INFO  | 2019-01-27 13:50:28 |                | Pre-order 47 | 1 x Coca Cola was packaged!
-INFO  | 2019-01-27 13:50:30 | Order Window 4 | Order 46     | 2 x McChicken 8.6
-INFO  | 2019-01-27 13:50:30 | Order Window 3 | Order 44     | 1 x McChicken was brought!
-INFO  | 2019-01-27 13:50:30 | Order Window 2 | Order 42     | 2 x Hamburger was brought!
-INFO  | 2019-01-27 13:50:32 | Order Window 4 | Order 46     | 2 x French Fries 6.0
-INFO  | 2019-01-27 13:50:32 | Order Window 4 | Order 46     | Total price: 24.8
-INFO  | 2019-01-27 13:50:32 |                | Order 46     | Status: packaging
-INFO  | 2019-01-27 13:50:32 | Order Window 1 | Order 45     | 2 x McFlurry was brought!
-INFO  | 2019-01-27 13:50:32 |                | Pre-order 47 | 2 x French Fries was packaged!
-INFO  | 2019-01-27 13:50:34 | Order Window 4 | Order 46     | 2 x Hamburger was brought!
-INFO  | 2019-01-27 13:50:34 |                | Pre-order 47 | 2 x McChicken was packaged!
-INFO  | 2019-01-27 13:50:35 | Order Window 3 | Order 44     | 2 x McFlurry was brought!
-INFO  | 2019-01-27 13:50:35 |                | Order 44     | Status: ready
-INFO  | 2019-01-27 13:50:35 | Order Window 3 | Order 44     | Thank you for your order! Have a nice day!
-INFO  | 2019-01-27 13:50:35 | Order Window 3 | Order 48     | Hello! Make your order please!
-INFO  | 2019-01-27 13:50:35 | Order Window 2 | Order 42     | 1 x McFlurry was brought!
-INFO  | 2019-01-27 13:50:35 |                | Order 42     | Status: ready
-INFO  | 2019-01-27 13:50:35 | Order Window 2 | Order 42     | Thank you for your order! Have a nice day!
-INFO  | 2019-01-27 13:50:35 | Order Window 2 | Order 49     | Hello! Make your order please!
-INFO  | 2019-01-27 13:50:35 | Order Window 1 | Order 45     | 1 x Coca Cola was brought!
-INFO  | 2019-01-27 13:50:37 | Order Window 4 | Order 46     | 3 x Coca Cola was brought!
-INFO  | 2019-01-27 13:50:37 | Order Window 3 | Order 48     | 2 x Hamburger 3.6
-INFO  | 2019-01-27 13:50:37 | Order Window 2 | Order 49     | 2 x Hamburger 3.6
-INFO  | 2019-01-27 13:50:37 | Order Window 1 | Order 45     | 2 x McChicken was brought!
-INFO  | 2019-01-27 13:50:37 |                | Order 45     | Status: ready
-INFO  | 2019-01-27 13:50:37 | Order Window 1 | Order 45     | Thank you for your order! Have a nice day!
-INFO  | 2019-01-27 13:50:37 | Order Window 1 | Order 50     | Hello! Make your order please!
-INFO  | 2019-01-27 13:50:39 | Order Window 4 | Order 46     | 2 x McChicken was brought!
-INFO  | 2019-01-27 13:50:39 | Order Window 3 | Order 48     | 3 x Coca Cola 6.6
-INFO  | 2019-01-27 13:50:39 | Order Window 2 | Order 49     | 2 x Coca Cola 4.4
-INFO  | 2019-01-27 13:50:39 | Order Window 1 | Order 50     | 1 x Hamburger 1.8
-INFO  | 2019-01-27 13:50:39 |                | Pre-order 47 | 2 x McFlurry was packaged!
-INFO  | 2019-01-27 13:50:41 | Order Window 3 | Order 48     | 2 x McChicken 8.6
-INFO  | 2019-01-27 13:50:41 | Order Window 2 | Order 49     | 1 x McChicken 4.3
-INFO  | 2019-01-27 13:50:41 | Order Window 1 | Order 50     | 3 x Coca Cola 6.6
-INFO  | 2019-01-27 13:50:41 |                | Pre-order 47 | 1 x Hamburger was packaged!
-INFO  | 2019-01-27 13:50:41 |                | Pre-order 47 | Status: ready
-INFO  | 2019-01-27 13:50:41 | Order Window 2 | Pre-order 47 | Thank you for your order! Have a nice day!
-INFO  | 2019-01-27 13:50:41 |                | Pre-order 51 | 1 x Hamburger 1.8
-INFO  | 2019-01-27 13:50:41 |                | Pre-order 51 | 3 x Coca Cola 6.6
-INFO  | 2019-01-27 13:50:41 |                | Pre-order 51 | 2 x McChicken 8.6
-INFO  | 2019-01-27 13:50:41 |                | Pre-order 51 | Total price: 17.0
-INFO  | 2019-01-27 13:50:41 |                | Pre-order 51 | Status: packaging
-INFO  | 2019-01-27 13:50:43 | Order Window 4 | Order 46     | 2 x French Fries was brought!
-INFO  | 2019-01-27 13:50:43 |                | Order 46     | Status: ready
-INFO  | 2019-01-27 13:50:43 | Order Window 4 | Order 46     | Thank you for your order! Have a nice day!
-INFO  | 2019-01-27 13:50:43 | Order Window 4 | Order 52     | Hello! Make your order please!
-INFO  | 2019-01-27 13:50:43 | Order Window 3 | Order 48     | 2 x French Fries 6.0
-INFO  | 2019-01-27 13:50:43 | Order Window 3 | Order 48     | Total price: 24.8
-INFO  | 2019-01-27 13:50:43 |                | Order 48     | Status: packaging
-INFO  | 2019-01-27 13:50:43 | Order Window 2 | Order 49     | 2 x French Fries 6.0
-INFO  | 2019-01-27 13:50:43 | Order Window 1 | Order 50     | 2 x French Fries 6.0
-INFO  | 2019-01-27 13:50:43 | Order Window 1 | Order 50     | Total price: 14.4
-INFO  | 2019-01-27 13:50:43 |                | Order 50     | Status: packaging
-INFO  | 2019-01-27 13:50:44 |                | Pre-order 51 | 3 x Coca Cola was packaged!
-INFO  | 2019-01-27 13:50:45 | Order Window 4 | Order 52     | 1 x Coca Cola 2.2
-INFO  | 2019-01-27 13:50:45 | Order Window 3 | Order 48     | 2 x Hamburger was brought!
-INFO  | 2019-01-27 13:50:45 | Order Window 2 | Order 49     | 1 x McFlurry 3.0
-INFO  | 2019-01-27 13:50:45 | Order Window 2 | Order 49     | Total price: 21.3
-INFO  | 2019-01-27 13:50:45 |                | Order 49     | Status: packaging
-INFO  | 2019-01-27 13:50:46 | Order Window 1 | Order 50     | 3 x Coca Cola was brought!
-INFO  | 2019-01-27 13:50:46 |                | Pre-order 51 | 2 x McChicken was packaged!
-INFO  | 2019-01-27 13:50:47 | Order Window 4 | Order 52     | 1 x McFlurry 3.0
-INFO  | 2019-01-27 13:50:47 | Order Window 4 | Order 52     | Total price: 5.2
-INFO  | 2019-01-27 13:50:47 |                | Order 52     | Status: packaging
-INFO  | 2019-01-27 13:50:47 | Order Window 3 | Order 48     | 2 x McChicken was brought!
-INFO  | 2019-01-27 13:50:48 | Order Window 2 | Order 49     | 2 x Coca Cola was brought!
-INFO  | 2019-01-27 13:50:48 | Order Window 1 | Order 50     | 1 x Hamburger was brought!
-INFO  | 2019-01-27 13:50:48 |                | Pre-order 51 | 1 x Hamburger was packaged!
-INFO  | 2019-01-27 13:50:48 |                | Pre-order 51 | Status: ready
-INFO  | 2019-01-27 13:50:48 | Order Window 4 | Pre-order 51 | Thank you for your order! Have a nice day!
-INFO  | 2019-01-27 13:50:48 |                | Pre-order 53 | 2 x Hamburger 3.6
-INFO  | 2019-01-27 13:50:48 |                | Pre-order 53 | 3 x Coca Cola 6.6
-INFO  | 2019-01-27 13:50:48 |                | Pre-order 53 | 2 x McChicken 8.6
-INFO  | 2019-01-27 13:50:48 |                | Pre-order 53 | 1 x McFlurry 3.0
-INFO  | 2019-01-27 13:50:48 |                | Pre-order 53 | Total price: 21.8
-INFO  | 2019-01-27 13:50:48 |                | Pre-order 53 | Status: packaging
-INFO  | 2019-01-27 13:50:50 | Order Window 4 | Order 52     | 1 x Coca Cola was brought!
-INFO  | 2019-01-27 13:50:50 | Order Window 3 | Order 48     | 3 x Coca Cola was brought!
-INFO  | 2019-01-27 13:50:50 |                | Pre-order 53 | 2 x Hamburger was packaged!
-INFO  | 2019-01-27 13:50:52 | Order Window 2 | Order 49     | 2 x French Fries was brought!
-INFO  | 2019-01-27 13:50:52 | Order Window 1 | Order 50     | 2 x French Fries was brought!
-INFO  | 2019-01-27 13:50:52 |                | Order 50     | Status: ready
-INFO  | 2019-01-27 13:50:52 | Order Window 1 | Order 50     | Thank you for your order! Have a nice day!
-INFO  | 2019-01-27 13:50:52 | Order Window 1 | Order 54     | Hello! Make your order please!
-INFO  | 2019-01-27 13:50:53 |                | Pre-order 53 | 3 x Coca Cola was packaged!
-INFO  | 2019-01-27 13:50:54 | Order Window 3 | Order 48     | 2 x French Fries was brought!
-INFO  | 2019-01-27 13:50:54 |                | Order 48     | Status: ready
-INFO  | 2019-01-27 13:50:54 | Order Window 3 | Order 48     | Thank you for your order! Have a nice day!
-INFO  | 2019-01-27 13:50:54 | Order Window 3 | Order 55     | Hello! Make your order please!
-INFO  | 2019-01-27 13:50:54 | Order Window 2 | Order 49     | 2 x Hamburger was brought!
-INFO  | 2019-01-27 13:50:54 | Order Window 1 | Order 54     | 3 x Coca Cola 6.6
-INFO  | 2019-01-27 13:50:55 | Order Window 4 | Order 52     | 1 x McFlurry was brought!
-INFO  | 2019-01-27 13:50:55 |                | Order 52     | Status: ready
-INFO  | 2019-01-27 13:50:55 | Order Window 4 | Order 52     | Thank you for your order! Have a nice day!
-INFO  | 2019-01-27 13:50:56 | Order Window 3 | Order 55     | 1 x Hamburger 1.8
-INFO  | 2019-01-27 13:50:56 | Order Window 2 | Order 49     | 1 x McChicken was brought!
-INFO  | 2019-01-27 13:50:56 | Order Window 1 | Order 54     | 1 x French Fries 3.0
-INFO  | 2019-01-27 13:50:56 | Order Window 1 | Order 54     | Total price: 9.6
-INFO  | 2019-01-27 13:50:56 |                | Order 54     | Status: packaging
-INFO  | 2019-01-27 13:50:58 | Order Window 3 | Order 55     | 2 x Coca Cola 4.4
-INFO  | 2019-01-27 13:50:58 |                | Pre-order 53 | 1 x McFlurry was packaged!
-INFO  | 2019-01-27 13:51:00 | Order Window 3 | Order 55     | 1 x McChicken 4.3
-INFO  | 2019-01-27 13:51:00 | Order Window 3 | Order 55     | Total price: 10.5
-INFO  | 2019-01-27 13:51:00 |                | Order 55     | Status: packaging
-INFO  | 2019-01-27 13:51:00 | Order Window 1 | Order 54     | 1 x French Fries was brought!
-INFO  | 2019-01-27 13:51:00 |                | Pre-order 53 | 2 x McChicken was packaged!
-INFO  | 2019-01-27 13:51:00 |                | Pre-order 53 | Status: ready
-INFO  | 2019-01-27 13:51:00 | Order Window 3 | Pre-order 53 | Thank you for your order! Have a nice day!
-INFO  | 2019-01-27 13:51:01 | Order Window 2 | Order 49     | 1 x McFlurry was brought!
-INFO  | 2019-01-27 13:51:01 |                | Order 49     | Status: ready
-INFO  | 2019-01-27 13:51:01 | Order Window 2 | Order 49     | Thank you for your order! Have a nice day!
-INFO  | 2019-01-27 13:51:01 | Order Window 2 | Order 56     | Hello! Make your order please!
-INFO  | 2019-01-27 13:51:02 | Order Window 3 | Order 55     | 1 x McChicken was brought!
-INFO  | 2019-01-27 13:51:03 | Order Window 2 | Order 56     | 1 x Hamburger 1.8
-INFO  | 2019-01-27 13:51:03 | Order Window 1 | Order 54     | 3 x Coca Cola was brought!
-INFO  | 2019-01-27 13:51:03 |                | Order 54     | Status: ready
-INFO  | 2019-01-27 13:51:03 | Order Window 1 | Order 54     | Thank you for your order! Have a nice day!
-INFO  | 2019-01-27 13:51:05 | Order Window 3 | Order 55     | 2 x Coca Cola was brought!
-INFO  | 2019-01-27 13:51:05 | Order Window 2 | Order 56     | 2 x Coca Cola 4.4
-INFO  | 2019-01-27 13:51:07 | Order Window 3 | Order 55     | 1 x Hamburger was brought!
-INFO  | 2019-01-27 13:51:07 |                | Order 55     | Status: ready
-INFO  | 2019-01-27 13:51:07 | Order Window 3 | Order 55     | Thank you for your order! Have a nice day!
-INFO  | 2019-01-27 13:51:07 | Order Window 3 | Order 57     | Hello! Make your order please!
-INFO  | 2019-01-27 13:51:07 | Order Window 2 | Order 56     | 2 x McChicken 8.6
-INFO  | 2019-01-27 13:51:09 | Order Window 3 | Order 57     | 2 x Hamburger 3.6
-INFO  | 2019-01-27 13:51:09 | Order Window 2 | Order 56     | 1 x French Fries 3.0
-INFO  | 2019-01-27 13:51:11 | Order Window 3 | Order 57     | 2 x Coca Cola 4.4
-INFO  | 2019-01-27 13:51:11 | Order Window 2 | Order 56     | 2 x McFlurry 6.0
-INFO  | 2019-01-27 13:51:11 | Order Window 2 | Order 56     | Total price: 23.8
-INFO  | 2019-01-27 13:51:11 |                | Order 56     | Status: packaging
-INFO  | 2019-01-27 13:51:13 | Order Window 3 | Order 57     | 1 x McChicken 4.3
-INFO  | 2019-01-27 13:51:15 | Order Window 3 | Order 57     | 1 x McFlurry 3.0
-INFO  | 2019-01-27 13:51:15 | Order Window 3 | Order 57     | Total price: 15.3
-INFO  | 2019-01-27 13:51:15 |                | Order 57     | Status: packaging
-INFO  | 2019-01-27 13:51:15 | Order Window 2 | Order 56     | 1 x French Fries was brought!
-INFO  | 2019-01-27 13:51:17 | Order Window 3 | Order 57     | 1 x McChicken was brought!
-INFO  | 2019-01-27 13:51:17 | Order Window 2 | Order 56     | 1 x Hamburger was brought!
-INFO  | 2019-01-27 13:51:19 | Order Window 3 | Order 57     | 2 x Hamburger was brought!
-INFO  | 2019-01-27 13:51:20 | Order Window 2 | Order 56     | 2 x Coca Cola was brought!
-INFO  | 2019-01-27 13:51:22 | Order Window 2 | Order 56     | 2 x McChicken was brought!
-INFO  | 2019-01-27 13:51:24 | Order Window 3 | Order 57     | 1 x McFlurry was brought!
-INFO  | 2019-01-27 13:51:27 | Order Window 3 | Order 57     | 2 x Coca Cola was brought!
-INFO  | 2019-01-27 13:51:27 |                | Order 57     | Status: ready
-INFO  | 2019-01-27 13:51:27 | Order Window 3 | Order 57     | Thank you for your order! Have a nice day!
-INFO  | 2019-01-27 13:51:27 | Order Window 3 | Order 58     | Hello! Make your order please!
-INFO  | 2019-01-27 13:51:27 | Order Window 2 | Order 56     | 2 x McFlurry was brought!
-INFO  | 2019-01-27 13:51:27 |                | Order 56     | Status: ready
-INFO  | 2019-01-27 13:51:27 | Order Window 2 | Order 56     | Thank you for your order! Have a nice day!
-INFO  | 2019-01-27 13:51:27 | Order Window 2 | Order 59     | Hello! Make your order please!
-INFO  | 2019-01-27 13:51:29 | Order Window 3 | Order 58     | 1 x Coca Cola 2.2
-INFO  | 2019-01-27 13:51:29 | Order Window 2 | Order 59     | 1 x Coca Cola 2.2
-INFO  | 2019-01-27 13:51:31 | Order Window 3 | Order 58     | 1 x McChicken 4.3
-INFO  | 2019-01-27 13:51:31 | Order Window 2 | Order 59     | 1 x McChicken 4.3
-INFO  | 2019-01-27 13:51:33 | Order Window 3 | Order 58     | 1 x McFlurry 3.0
-INFO  | 2019-01-27 13:51:33 | Order Window 3 | Order 58     | Total price: 9.5
-INFO  | 2019-01-27 13:51:33 |                | Order 58     | Status: packaging
-INFO  | 2019-01-27 13:51:33 | Order Window 2 | Order 59     | 1 x French Fries 3.0
-INFO  | 2019-01-27 13:51:33 | Order Window 2 | Order 59     | Total price: 9.5
-INFO  | 2019-01-27 13:51:33 |                | Order 59     | Status: packaging
-INFO  | 2019-01-27 13:51:36 | Order Window 3 | Order 58     | 1 x Coca Cola was brought!
-INFO  | 2019-01-27 13:51:37 | Order Window 2 | Order 59     | 1 x French Fries was brought!
-INFO  | 2019-01-27 13:51:40 | Order Window 2 | Order 59     | 1 x Coca Cola was brought!
-INFO  | 2019-01-27 13:51:41 | Order Window 3 | Order 58     | 1 x McFlurry was brought!
-INFO  | 2019-01-27 13:51:42 | Order Window 2 | Order 59     | 1 x McChicken was brought!
-INFO  | 2019-01-27 13:51:42 |                | Order 59     | Status: ready
-INFO  | 2019-01-27 13:51:42 | Order Window 2 | Order 59     | Thank you for your order! Have a nice day!
-INFO  | 2019-01-27 13:51:42 | Order Window 2 | Order 60     | Hello! Make your order please!
-INFO  | 2019-01-27 13:51:43 | Order Window 3 | Order 58     | 1 x McChicken was brought!
-INFO  | 2019-01-27 13:51:43 |                | Order 58     | Status: ready
-INFO  | 2019-01-27 13:51:43 | Order Window 3 | Order 58     | Thank you for your order! Have a nice day!
-INFO  | 2019-01-27 13:51:43 | Order Window 3 | Order 61     | Hello! Make your order please!
-INFO  | 2019-01-27 13:51:44 | Order Window 2 | Order 60     | 2 x Coca Cola 4.4
-INFO  | 2019-01-27 13:51:45 | Order Window 3 | Order 61     | 2 x Hamburger 3.6
-INFO  | 2019-01-27 13:51:46 | Order Window 2 | Order 60     | 2 x McChicken 8.6
-INFO  | 2019-01-27 13:51:47 | Order Window 3 | Order 61     | 2 x Coca Cola 4.4
-INFO  | 2019-01-27 13:51:48 | Order Window 2 | Order 60     | 1 x French Fries 3.0
-INFO  | 2019-01-27 13:51:49 | Order Window 3 | Order 61     | 2 x McChicken 8.6
-INFO  | 2019-01-27 13:51:50 | Order Window 2 | Order 60     | 1 x McFlurry 3.0
-INFO  | 2019-01-27 13:51:50 | Order Window 2 | Order 60     | Total price: 19.0
-INFO  | 2019-01-27 13:51:50 |                | Order 60     | Status: packaging
-INFO  | 2019-01-27 13:51:51 | Order Window 3 | Order 61     | 1 x McFlurry 3.0
-INFO  | 2019-01-27 13:51:51 | Order Window 3 | Order 61     | Total price: 19.6
-INFO  | 2019-01-27 13:51:51 |                | Order 61     | Status: packaging
-INFO  | 2019-01-27 13:51:52 | Order Window 2 | Order 60     | 2 x McChicken was brought!
-INFO  | 2019-01-27 13:51:53 | Order Window 3 | Order 61     | 2 x McChicken was brought!
-INFO  | 2019-01-27 13:51:56 | Order Window 2 | Order 60     | 1 x French Fries was brought!
-INFO  | 2019-01-27 13:51:58 | Order Window 3 | Order 61     | 1 x McFlurry was brought!
-INFO  | 2019-01-27 13:52:01 | Order Window 3 | Order 61     | 2 x Coca Cola was brought!
-INFO  | 2019-01-27 13:52:01 | Order Window 2 | Order 60     | 1 x McFlurry was brought!
-INFO  | 2019-01-27 13:52:03 | Order Window 3 | Order 61     | 2 x Hamburger was brought!
-INFO  | 2019-01-27 13:52:03 |                | Order 61     | Status: ready
-INFO  | 2019-01-27 13:52:03 | Order Window 3 | Order 61     | Thank you for your order! Have a nice day!
-INFO  | 2019-01-27 13:52:03 | Order Window 3 | Order 62     | Hello! Make your order please!
-INFO  | 2019-01-27 13:52:04 | Order Window 2 | Order 60     | 2 x Coca Cola was brought!
-INFO  | 2019-01-27 13:52:04 |                | Order 60     | Status: ready
-INFO  | 2019-01-27 13:52:04 | Order Window 2 | Order 60     | Thank you for your order! Have a nice day!
-INFO  | 2019-01-27 13:52:04 | Order Window 2 | Order 63     | Hello! Make your order please!
-INFO  | 2019-01-27 13:52:05 | Order Window 3 | Order 62     | 2 x Hamburger 3.6
-INFO  | 2019-01-27 13:52:06 | Order Window 2 | Order 63     | 1 x Hamburger 1.8
-INFO  | 2019-01-27 13:52:07 | Order Window 3 | Order 62     | 1 x Coca Cola 2.2
-INFO  | 2019-01-27 13:52:08 | Order Window 2 | Order 63     | 3 x Coca Cola 6.6
-INFO  | 2019-01-27 13:52:09 | Order Window 3 | Order 62     | 1 x McChicken 4.3
-INFO  | 2019-01-27 13:52:10 | Order Window 2 | Order 63     | 2 x French Fries 6.0
-INFO  | 2019-01-27 13:52:11 | Order Window 3 | Order 62     | 1 x French Fries 3.0
-INFO  | 2019-01-27 13:52:12 | Order Window 2 | Order 63     | 2 x McFlurry 6.0
-INFO  | 2019-01-27 13:52:12 | Order Window 2 | Order 63     | Total price: 20.4
-INFO  | 2019-01-27 13:52:12 |                | Order 63     | Status: packaging
-INFO  | 2019-01-27 13:52:13 | Order Window 3 | Order 62     | 1 x McFlurry 3.0
-INFO  | 2019-01-27 13:52:13 | Order Window 3 | Order 62     | Total price: 16.1
-INFO  | 2019-01-27 13:52:13 |                | Order 62     | Status: packaging
-INFO  | 2019-01-27 13:52:14 | Order Window 2 | Order 63     | 1 x Hamburger was brought!
-INFO  | 2019-01-27 13:52:17 | Order Window 3 | Order 62     | 1 x French Fries was brought!
-INFO  | 2019-01-27 13:52:17 | Order Window 2 | Order 63     | 3 x Coca Cola was brought!
-INFO  | 2019-01-27 13:52:19 | Order Window 3 | Order 62     | 2 x Hamburger was brought!
-INFO  | 2019-01-27 13:52:21 | Order Window 2 | Order 63     | 2 x French Fries was brought!
-INFO  | 2019-01-27 13:52:24 | Order Window 3 | Order 62     | 1 x McFlurry was brought!
-INFO  | 2019-01-27 13:52:26 | Order Window 3 | Order 62     | 1 x McChicken was brought!
-INFO  | 2019-01-27 13:52:26 | Order Window 2 | Order 63     | 2 x McFlurry was brought!
-INFO  | 2019-01-27 13:52:26 |                | Order 63     | Status: ready
-INFO  | 2019-01-27 13:52:26 | Order Window 2 | Order 63     | Thank you for your order! Have a nice day!
-INFO  | 2019-01-27 13:52:26 | Order Window 2 | Order 64     | Hello! Make your order please!
-INFO  | 2019-01-27 13:52:28 | Order Window 2 | Order 64     | 2 x Hamburger 3.6
-INFO  | 2019-01-27 13:52:29 | Order Window 3 | Order 62     | 1 x Coca Cola was brought!
-INFO  | 2019-01-27 13:52:29 |                | Order 62     | Status: ready
-INFO  | 2019-01-27 13:52:29 | Order Window 3 | Order 62     | Thank you for your order! Have a nice day!
-INFO  | 2019-01-27 13:52:30 | Order Window 2 | Order 64     | 1 x Coca Cola 2.2
-INFO  | 2019-01-27 13:52:32 | Order Window 2 | Order 64     | 2 x McChicken 8.6
-INFO  | 2019-01-27 13:52:34 | Order Window 2 | Order 64     | 2 x French Fries 6.0
-INFO  | 2019-01-27 13:52:34 | Order Window 2 | Order 64     | Total price: 20.4
-INFO  | 2019-01-27 13:52:34 |                | Order 64     | Status: packaging
-INFO  | 2019-01-27 13:52:36 | Order Window 2 | Order 64     | 2 x McChicken was brought!
-INFO  | 2019-01-27 13:52:38 | Order Window 2 | Order 64     | 2 x Hamburger was brought!
-INFO  | 2019-01-27 13:52:42 | Order Window 2 | Order 64     | 2 x French Fries was brought!
-INFO  | 2019-01-27 13:52:45 | Order Window 2 | Order 64     | 1 x Coca Cola was brought!
-INFO  | 2019-01-27 13:52:45 |                | Order 64     | Status: ready
-INFO  | 2019-01-27 13:52:45 | Order Window 2 | Order 64     | Thank you for your order! Have a nice day!
-INFO  | 2019-01-27 13:52:45 | Order Window 2 | Order 65     | Hello! Make your order please!
-INFO  | 2019-01-27 13:52:47 | Order Window 2 | Order 65     | 2 x Coca Cola 4.4
-INFO  | 2019-01-27 13:52:49 | Order Window 2 | Order 65     | 1 x French Fries 3.0
-INFO  | 2019-01-27 13:52:51 | Order Window 2 | Order 65     | 2 x McFlurry 6.0
-INFO  | 2019-01-27 13:52:51 | Order Window 2 | Order 65     | Total price: 13.4
-INFO  | 2019-01-27 13:52:51 |                | Order 65     | Status: packaging
-INFO  | 2019-01-27 13:52:55 | Order Window 2 | Order 65     | 1 x French Fries was brought!
-INFO  | 2019-01-27 13:52:58 | Order Window 2 | Order 65     | 2 x Coca Cola was brought!
-INFO  | 2019-01-27 13:53:03 | Order Window 2 | Order 65     | 2 x McFlurry was brought!
-INFO  | 2019-01-27 13:53:03 |                | Order 65     | Status: ready
-INFO  | 2019-01-27 13:53:03 | Order Window 2 | Order 65     | Thank you for your order! Have a nice day!
-INFO  | 2019-01-27 13:53:03 | Order Window 2 | Order 66     | Hello! Make your order please!
-INFO  | 2019-01-27 13:53:05 | Order Window 2 | Order 66     | 2 x Coca Cola 4.4
-INFO  | 2019-01-27 13:53:07 | Order Window 2 | Order 66     | 2 x McChicken 8.6
-INFO  | 2019-01-27 13:53:09 | Order Window 2 | Order 66     | 2 x French Fries 6.0
-INFO  | 2019-01-27 13:53:11 | Order Window 2 | Order 66     | 1 x McFlurry 3.0
-INFO  | 2019-01-27 13:53:11 | Order Window 2 | Order 66     | Total price: 22.0
-INFO  | 2019-01-27 13:53:11 |                | Order 66     | Status: packaging
-INFO  | 2019-01-27 13:53:14 | Order Window 2 | Order 66     | 2 x Coca Cola was brought!
-INFO  | 2019-01-27 13:53:16 | Order Window 2 | Order 66     | 2 x McChicken was brought!
-INFO  | 2019-01-27 13:53:20 | Order Window 2 | Order 66     | 2 x French Fries was brought!
-INFO  | 2019-01-27 13:53:25 | Order Window 2 | Order 66     | 1 x McFlurry was brought!
-INFO  | 2019-01-27 13:53:25 |                | Order 66     | Status: ready
-INFO  | 2019-01-27 13:53:25 | Order Window 2 | Order 66     | Thank you for your order! Have a nice day!
-INFO  | 2019-01-27 13:53:25 | Order Window 2 | Order 67     | Hello! Make your order please!
-INFO  | 2019-01-27 13:53:27 | Order Window 2 | Order 67     | 1 x Coca Cola 2.2
-INFO  | 2019-01-27 13:53:29 | Order Window 2 | Order 67     | 1 x McChicken 4.3
-INFO  | 2019-01-27 13:53:31 | Order Window 2 | Order 67     | 1 x French Fries 3.0
-INFO  | 2019-01-27 13:53:33 | Order Window 2 | Order 67     | 1 x McFlurry 3.0
-INFO  | 2019-01-27 13:53:33 | Order Window 2 | Order 67     | Total price: 12.5
-INFO  | 2019-01-27 13:53:33 |                | Order 67     | Status: packaging
-INFO  | 2019-01-27 13:53:38 | Order Window 2 | Order 67     | 1 x McFlurry was brought!
-INFO  | 2019-01-27 13:53:41 | Order Window 2 | Order 67     | 1 x Coca Cola was brought!
-INFO  | 2019-01-27 13:53:45 | Order Window 2 | Order 67     | 1 x French Fries was brought!
-INFO  | 2019-01-27 13:53:47 | Order Window 2 | Order 67     | 1 x McChicken was brought!
-INFO  | 2019-01-27 13:53:47 |                | Order 67     | Status: ready
-INFO  | 2019-01-27 13:53:47 | Order Window 2 | Order 67     | Thank you for your order! Have a nice day!
+INFO  | 2019-01-27 15:56:43 |                | Pre-order 1  | 1 x Hamburger 1.8
+INFO  | 2019-01-27 15:56:43 |                | Pre-order 1  | 3 x Coca Cola 6.6
+INFO  | 2019-01-27 15:56:43 |                | Pre-order 1  | 1 x McChicken 4.3
+INFO  | 2019-01-27 15:56:43 |                | Pre-order 1  | 2 x French Fries 6.0
+INFO  | 2019-01-27 15:56:43 |                | Pre-order 1  | 2 x McFlurry 6.0
+INFO  | 2019-01-27 15:56:43 |                | Pre-order 1  | Total price: 24.7
+INFO  | 2019-01-27 15:56:43 |                | Pre-order 1  | Status: packaging
+INFO  | 2019-01-27 15:56:45 | Order Window 4 | Order 2      | Hello! Make your order please!
+INFO  | 2019-01-27 15:56:45 |                | Pre-order 1  | 1 x Hamburger was packaged!
+INFO  | 2019-01-27 15:56:46 | Order Window 3 | Order 3      | Hello! Make your order please!
+INFO  | 2019-01-27 15:56:47 | Order Window 4 | Order 2      | 1 x Coca Cola 2.2
+INFO  | 2019-01-27 15:56:48 | Order Window 2 | Order 4      | Hello! Make your order please!
+INFO  | 2019-01-27 15:56:48 | Order Window 3 | Order 3      | 2 x Hamburger 3.6
+INFO  | 2019-01-27 15:56:49 | Order Window 4 | Order 2      | 2 x McChicken 8.6
+INFO  | 2019-01-27 15:56:50 | Order Window 3 | Order 3      | 2 x Coca Cola 4.4
+INFO  | 2019-01-27 15:56:50 | Order Window 2 | Order 4      | 3 x Coca Cola 6.6
+INFO  | 2019-01-27 15:56:50 |                | Pre-order 1  | 2 x McFlurry was packaged!
+INFO  | 2019-01-27 15:56:51 | Order Window 1 | Order 5      | Hello! Make your order please!
+INFO  | 2019-01-27 15:56:51 | Order Window 4 | Order 2      | 2 x French Fries 6.0
+INFO  | 2019-01-27 15:56:52 | Order Window 3 | Order 3      | 1 x McFlurry 3.0
+INFO  | 2019-01-27 15:56:52 | Order Window 2 | Order 4      | 2 x McChicken 8.6
+INFO  | 2019-01-27 15:56:52 | Order Window 3 | Order 3      | Total price: 11.0
+INFO  | 2019-01-27 15:56:52 |                | Order 3      | Status: packaging
+INFO  | 2019-01-27 15:56:53 | Order Window 1 | Order 5      | 2 x Hamburger 3.6
+INFO  | 2019-01-27 15:56:53 | Order Window 4 | Order 2      | 2 x McFlurry 6.0
+INFO  | 2019-01-27 15:56:53 | Order Window 4 | Order 2      | Total price: 22.8
+INFO  | 2019-01-27 15:56:53 |                | Order 2      | Status: packaging
+INFO  | 2019-01-27 15:56:53 |                | Pre-order 1  | 3 x Coca Cola was packaged!
+INFO  | 2019-01-27 15:56:54 | Order Window 2 | Order 4      | 1 x McFlurry 3.0
+INFO  | 2019-01-27 15:56:54 | Order Window 2 | Order 4      | Total price: 18.2
+INFO  | 2019-01-27 15:56:54 |                | Order 4      | Status: packaging
+INFO  | 2019-01-27 15:56:54 | Order Window 3 | Order 3      | 2 x Hamburger was brought!
+INFO  | 2019-01-27 15:56:55 | Order Window 1 | Order 5      | 2 x Coca Cola 4.4
+INFO  | 2019-01-27 15:56:55 |                | Pre-order 1  | 1 x McChicken was packaged!
+INFO  | 2019-01-27 15:56:56 | Order Window 4 | Order 2      | 1 x Coca Cola was brought!
+INFO  | 2019-01-27 15:56:57 | Order Window 1 | Order 5      | 2 x McChicken 8.6
+INFO  | 2019-01-27 15:56:57 | Order Window 2 | Order 4      | 3 x Coca Cola was brought!
+INFO  | 2019-01-27 15:56:57 | Order Window 3 | Order 3      | 2 x Coca Cola was brought!
+INFO  | 2019-01-27 15:56:59 | Order Window 1 | Order 5      | 1 x French Fries 3.0
+INFO  | 2019-01-27 15:56:59 | Order Window 2 | Order 4      | 2 x McChicken was brought!
+INFO  | 2019-01-27 15:56:59 |                | Pre-order 1  | 2 x French Fries was packaged!
+INFO  | 2019-01-27 15:56:59 |                | Pre-order 1  | Status: ready
+INFO  | 2019-01-27 15:56:59 | Order Window 2 | Pre-order 1  | Thank you for your order! Have a nice day!
+INFO  | 2019-01-27 15:56:59 |                | Pre-order 6  | 1 x Hamburger 1.8
+INFO  | 2019-01-27 15:56:59 |                | Pre-order 6  | 2 x Coca Cola 4.4
+INFO  | 2019-01-27 15:56:59 |                | Pre-order 6  | 1 x McChicken 4.3
+INFO  | 2019-01-27 15:56:59 |                | Pre-order 6  | 1 x McFlurry 3.0
+INFO  | 2019-01-27 15:56:59 |                | Pre-order 6  | Total price: 13.5
+INFO  | 2019-01-27 15:56:59 |                | Pre-order 6  | Status: packaging
+INFO  | 2019-01-27 15:57:00 | Order Window 4 | Order 2      | 2 x French Fries was brought!
+INFO  | 2019-01-27 15:57:01 | Order Window 1 | Order 5      | 1 x McFlurry 3.0
+INFO  | 2019-01-27 15:57:01 | Order Window 1 | Order 5      | Total price: 22.6
+INFO  | 2019-01-27 15:57:01 |                | Order 5      | Status: packaging
+INFO  | 2019-01-27 15:57:01 |                | Pre-order 6  | 1 x Hamburger was packaged!
+INFO  | 2019-01-27 15:57:02 | Order Window 3 | Order 3      | 1 x McFlurry was brought!
+INFO  | 2019-01-27 15:57:02 |                | Order 3      | Status: ready
+INFO  | 2019-01-27 15:57:02 | Order Window 3 | Order 3      | Thank you for your order! Have a nice day!
+INFO  | 2019-01-27 15:57:02 | Order Window 3 | Order 7      | Hello! Make your order please!
+INFO  | 2019-01-27 15:57:04 | Order Window 2 | Order 4      | 1 x McFlurry was brought!
+INFO  | 2019-01-27 15:57:04 |                | Order 4      | Status: ready
+INFO  | 2019-01-27 15:57:04 | Order Window 1 | Order 5      | 2 x Coca Cola was brought!
+INFO  | 2019-01-27 15:57:04 | Order Window 2 | Order 4      | Thank you for your order! Have a nice day!
+INFO  | 2019-01-27 15:57:04 | Order Window 2 | Order 8      | Hello! Make your order please!
+INFO  | 2019-01-27 15:57:04 | Order Window 3 | Order 7      | 2 x Coca Cola 4.4
+INFO  | 2019-01-27 15:57:04 |                | Pre-order 6  | 2 x Coca Cola was packaged!
+INFO  | 2019-01-27 15:57:05 | Order Window 4 | Order 2      | 2 x McFlurry was brought!
+INFO  | 2019-01-27 15:57:06 | Order Window 2 | Order 8      | 1 x Hamburger 1.8
+INFO  | 2019-01-27 15:57:06 | Order Window 3 | Order 7      | 1 x French Fries 3.0
+INFO  | 2019-01-27 15:57:07 | Order Window 4 | Order 2      | 2 x McChicken was brought!
+INFO  | 2019-01-27 15:57:07 |                | Order 2      | Status: ready
+INFO  | 2019-01-27 15:57:07 | Order Window 4 | Order 2      | Thank you for your order! Have a nice day!
+INFO  | 2019-01-27 15:57:07 | Order Window 4 | Order 9      | Hello! Make your order please!
+INFO  | 2019-01-27 15:57:08 | Order Window 1 | Order 5      | 1 x French Fries was brought!
+INFO  | 2019-01-27 15:57:08 | Order Window 2 | Order 8      | 3 x Coca Cola 6.6
+INFO  | 2019-01-27 15:57:08 | Order Window 3 | Order 7      | 1 x McFlurry 3.0
+INFO  | 2019-01-27 15:57:08 | Order Window 3 | Order 7      | Total price: 10.4
+INFO  | 2019-01-27 15:57:08 |                | Order 7      | Status: packaging
+INFO  | 2019-01-27 15:57:09 | Order Window 4 | Order 9      | 2 x Hamburger 3.6
+INFO  | 2019-01-27 15:57:09 |                | Pre-order 6  | 1 x McFlurry was packaged!
+INFO  | 2019-01-27 15:57:10 | Order Window 1 | Order 5      | 2 x Hamburger was brought!
+INFO  | 2019-01-27 15:57:10 | Order Window 2 | Order 8      | 2 x French Fries 6.0
+INFO  | 2019-01-27 15:57:11 | Order Window 3 | Order 7      | 2 x Coca Cola was brought!
+INFO  | 2019-01-27 15:57:11 | Order Window 4 | Order 9      | 1 x Coca Cola 2.2
+INFO  | 2019-01-27 15:57:11 |                | Pre-order 6  | 1 x McChicken was packaged!
+INFO  | 2019-01-27 15:57:11 |                | Pre-order 6  | Status: ready
+INFO  | 2019-01-27 15:57:11 | Order Window 4 | Pre-order 6  | Thank you for your order! Have a nice day!
+INFO  | 2019-01-27 15:57:11 |                | Pre-order 10 | 2 x Coca Cola 4.4
+INFO  | 2019-01-27 15:57:11 |                | Pre-order 10 | 1 x French Fries 3.0
+INFO  | 2019-01-27 15:57:11 |                | Pre-order 10 | 1 x McFlurry 3.0
+INFO  | 2019-01-27 15:57:11 |                | Pre-order 10 | Total price: 10.4
+INFO  | 2019-01-27 15:57:11 |                | Pre-order 10 | Status: packaging
+INFO  | 2019-01-27 15:57:12 | Order Window 2 | Order 8      | 1 x McFlurry 3.0
+INFO  | 2019-01-27 15:57:12 | Order Window 2 | Order 8      | Total price: 17.4
+INFO  | 2019-01-27 15:57:12 |                | Order 8      | Status: packaging
+INFO  | 2019-01-27 15:57:13 | Order Window 4 | Order 9      | 2 x McChicken 8.6
+INFO  | 2019-01-27 15:57:15 | Order Window 1 | Order 5      | 1 x McFlurry was brought!
+INFO  | 2019-01-27 15:57:15 | Order Window 4 | Order 9      | 2 x McFlurry 6.0
+INFO  | 2019-01-27 15:57:15 | Order Window 4 | Order 9      | Total price: 20.4
+INFO  | 2019-01-27 15:57:15 |                | Order 9      | Status: packaging
+INFO  | 2019-01-27 15:57:15 |                | Pre-order 10 | 1 x French Fries was packaged!
+INFO  | 2019-01-27 15:57:16 | Order Window 3 | Order 7      | 1 x McFlurry was brought!
+INFO  | 2019-01-27 15:57:17 | Order Window 1 | Order 5      | 2 x McChicken was brought!
+INFO  | 2019-01-27 15:57:17 |                | Order 5      | Status: ready
+INFO  | 2019-01-27 15:57:17 | Order Window 1 | Order 5      | Thank you for your order! Have a nice day!
+INFO  | 2019-01-27 15:57:17 | Order Window 1 | Order 11     | Hello! Make your order please!
+INFO  | 2019-01-27 15:57:17 | Order Window 2 | Order 8      | 1 x McFlurry was brought!
+INFO  | 2019-01-27 15:57:19 | Order Window 1 | Order 11     | 2 x Coca Cola 4.4
+INFO  | 2019-01-27 15:57:20 | Order Window 3 | Order 7      | 1 x French Fries was brought!
+INFO  | 2019-01-27 15:57:20 |                | Order 7      | Status: ready
+INFO  | 2019-01-27 15:57:20 | Order Window 3 | Order 7      | Thank you for your order! Have a nice day!
+INFO  | 2019-01-27 15:57:20 | Order Window 4 | Order 9      | 2 x McFlurry was brought!
+INFO  | 2019-01-27 15:57:20 | Order Window 3 | Order 12     | Hello! Make your order please!
+INFO  | 2019-01-27 15:57:20 |                | Pre-order 10 | 1 x McFlurry was packaged!
+INFO  | 2019-01-27 15:57:21 | Order Window 2 | Order 8      | 2 x French Fries was brought!
+INFO  | 2019-01-27 15:57:21 | Order Window 1 | Order 11     | 2 x McChicken 8.6
+INFO  | 2019-01-27 15:57:22 | Order Window 4 | Order 9      | 2 x McChicken was brought!
+INFO  | 2019-01-27 15:57:22 | Order Window 3 | Order 12     | 2 x Hamburger 3.6
+INFO  | 2019-01-27 15:57:23 | Order Window 2 | Order 8      | 1 x Hamburger was brought!
+INFO  | 2019-01-27 15:57:23 | Order Window 1 | Order 11     | 1 x French Fries 3.0
+INFO  | 2019-01-27 15:57:23 |                | Pre-order 10 | 2 x Coca Cola was packaged!
+INFO  | 2019-01-27 15:57:23 |                | Pre-order 10 | Status: ready
+INFO  | 2019-01-27 15:57:23 | Order Window 2 | Pre-order 10 | Thank you for your order! Have a nice day!
+INFO  | 2019-01-27 15:57:23 |                | Pre-order 13 | 1 x Hamburger 1.8
+INFO  | 2019-01-27 15:57:23 |                | Pre-order 13 | 3 x Coca Cola 6.6
+INFO  | 2019-01-27 15:57:23 |                | Pre-order 13 | 2 x French Fries 6.0
+INFO  | 2019-01-27 15:57:23 |                | Pre-order 13 | 2 x McFlurry 6.0
+INFO  | 2019-01-27 15:57:23 |                | Pre-order 13 | Total price: 20.4
+INFO  | 2019-01-27 15:57:23 |                | Pre-order 13 | Status: packaging
+INFO  | 2019-01-27 15:57:24 | Order Window 4 | Order 9      | 2 x Hamburger was brought!
+INFO  | 2019-01-27 15:57:24 | Order Window 3 | Order 12     | 3 x Coca Cola 6.6
+INFO  | 2019-01-27 15:57:25 | Order Window 1 | Order 11     | 1 x McFlurry 3.0
+INFO  | 2019-01-27 15:57:25 | Order Window 1 | Order 11     | Total price: 19.0
+INFO  | 2019-01-27 15:57:25 |                | Order 11     | Status: packaging
+INFO  | 2019-01-27 15:57:25 |                | Pre-order 13 | 1 x Hamburger was packaged!
+INFO  | 2019-01-27 15:57:26 | Order Window 2 | Order 8      | 3 x Coca Cola was brought!
+INFO  | 2019-01-27 15:57:26 |                | Order 8      | Status: ready
+INFO  | 2019-01-27 15:57:26 | Order Window 2 | Order 8      | Thank you for your order! Have a nice day!
+INFO  | 2019-01-27 15:57:26 | Order Window 2 | Order 14     | Hello! Make your order please!
+INFO  | 2019-01-27 15:57:26 | Order Window 3 | Order 12     | 2 x McChicken 8.6
+INFO  | 2019-01-27 15:57:26 | Order Window 3 | Order 12     | Total price: 18.8
+INFO  | 2019-01-27 15:57:26 |                | Order 12     | Status: packaging
+INFO  | 2019-01-27 15:57:27 | Order Window 4 | Order 9      | 1 x Coca Cola was brought!
+INFO  | 2019-01-27 15:57:27 |                | Order 9      | Status: ready
+INFO  | 2019-01-27 15:57:27 | Order Window 4 | Order 9      | Thank you for your order! Have a nice day!
+INFO  | 2019-01-27 15:57:27 | Order Window 4 | Order 15     | Hello! Make your order please!
+INFO  | 2019-01-27 15:57:28 | Order Window 1 | Order 11     | 2 x Coca Cola was brought!
+INFO  | 2019-01-27 15:57:28 | Order Window 2 | Order 14     | 2 x Coca Cola 4.4
+INFO  | 2019-01-27 15:57:28 | Order Window 3 | Order 12     | 2 x McChicken was brought!
+INFO  | 2019-01-27 15:57:28 |                | Pre-order 13 | 3 x Coca Cola was packaged!
+INFO  | 2019-01-27 15:57:29 | Order Window 4 | Order 15     | 1 x Hamburger 1.8
+INFO  | 2019-01-27 15:57:30 | Order Window 1 | Order 11     | 2 x McChicken was brought!
+INFO  | 2019-01-27 15:57:30 | Order Window 2 | Order 14     | 1 x French Fries 3.0
+INFO  | 2019-01-27 15:57:30 | Order Window 2 | Order 14     | Total price: 7.4
+INFO  | 2019-01-27 15:57:30 |                | Order 14     | Status: packaging
+INFO  | 2019-01-27 15:57:31 | Order Window 3 | Order 12     | 3 x Coca Cola was brought!
+INFO  | 2019-01-27 15:57:31 | Order Window 4 | Order 15     | 3 x Coca Cola 6.6
+INFO  | 2019-01-27 15:57:33 | Order Window 4 | Order 15     | 1 x French Fries 3.0
+INFO  | 2019-01-27 15:57:33 | Order Window 3 | Order 12     | 2 x Hamburger was brought!
+INFO  | 2019-01-27 15:57:33 | Order Window 4 | Order 15     | Total price: 11.4
+INFO  | 2019-01-27 15:57:33 |                | Order 12     | Status: ready
+INFO  | 2019-01-27 15:57:33 |                | Order 15     | Status: packaging
+INFO  | 2019-01-27 15:57:33 | Order Window 3 | Order 12     | Thank you for your order! Have a nice day!
+INFO  | 2019-01-27 15:57:33 | Order Window 3 | Order 16     | Hello! Make your order please!
+INFO  | 2019-01-27 15:57:33 |                | Pre-order 13 | 2 x McFlurry was packaged!
+INFO  | 2019-01-27 15:57:34 | Order Window 1 | Order 11     | 1 x French Fries was brought!
+INFO  | 2019-01-27 15:57:34 | Order Window 2 | Order 14     | 1 x French Fries was brought!
+INFO  | 2019-01-27 15:57:35 | Order Window 3 | Order 16     | 2 x Hamburger 3.6
+INFO  | 2019-01-27 15:57:35 | Order Window 4 | Order 15     | 1 x Hamburger was brought!
+INFO  | 2019-01-27 15:57:37 | Order Window 2 | Order 14     | 2 x Coca Cola was brought!
+INFO  | 2019-01-27 15:57:37 |                | Order 14     | Status: ready
+INFO  | 2019-01-27 15:57:37 | Order Window 2 | Order 14     | Thank you for your order! Have a nice day!
+INFO  | 2019-01-27 15:57:37 | Order Window 3 | Order 16     | 2 x Coca Cola 4.4
+INFO  | 2019-01-27 15:57:37 | Order Window 2 | Order 17     | Hello! Make your order please!
+INFO  | 2019-01-27 15:57:37 |                | Pre-order 13 | 2 x French Fries was packaged!
+INFO  | 2019-01-27 15:57:37 |                | Pre-order 13 | Status: ready
+INFO  | 2019-01-27 15:57:37 | Order Window 4 | Pre-order 13 | Thank you for your order! Have a nice day!
+INFO  | 2019-01-27 15:57:37 |                | Pre-order 18 | 2 x Hamburger 3.6
+INFO  | 2019-01-27 15:57:37 |                | Pre-order 18 | 3 x Coca Cola 6.6
+INFO  | 2019-01-27 15:57:37 |                | Pre-order 18 | 2 x French Fries 6.0
+INFO  | 2019-01-27 15:57:37 |                | Pre-order 18 | 1 x McFlurry 3.0
+INFO  | 2019-01-27 15:57:37 |                | Pre-order 18 | Total price: 19.2
+INFO  | 2019-01-27 15:57:37 |                | Pre-order 18 | Status: packaging
+INFO  | 2019-01-27 15:57:38 | Order Window 4 | Order 15     | 3 x Coca Cola was brought!
+INFO  | 2019-01-27 15:57:39 | Order Window 1 | Order 11     | 1 x McFlurry was brought!
+INFO  | 2019-01-27 15:57:39 |                | Order 11     | Status: ready
+INFO  | 2019-01-27 15:57:39 | Order Window 1 | Order 11     | Thank you for your order! Have a nice day!
+INFO  | 2019-01-27 15:57:39 | Order Window 1 | Order 19     | Hello! Make your order please!
+INFO  | 2019-01-27 15:57:39 | Order Window 3 | Order 16     | 1 x McChicken 4.3
+INFO  | 2019-01-27 15:57:39 | Order Window 2 | Order 17     | 2 x Hamburger 3.6
+INFO  | 2019-01-27 15:57:41 | Order Window 1 | Order 19     | 3 x Coca Cola 6.6
+INFO  | 2019-01-27 15:57:41 | Order Window 2 | Order 17     | 3 x Coca Cola 6.6
+INFO  | 2019-01-27 15:57:41 | Order Window 2 | Order 17     | Total price: 10.2
+INFO  | 2019-01-27 15:57:41 |                | Order 17     | Status: packaging
+INFO  | 2019-01-27 15:57:41 | Order Window 3 | Order 16     | 1 x French Fries 3.0
+INFO  | 2019-01-27 15:57:41 |                | Pre-order 18 | 2 x French Fries was packaged!
+INFO  | 2019-01-27 15:57:42 | Order Window 4 | Order 15     | 1 x French Fries was brought!
+INFO  | 2019-01-27 15:57:42 |                | Order 15     | Status: ready
+INFO  | 2019-01-27 15:57:42 | Order Window 4 | Order 15     | Thank you for your order! Have a nice day!
+INFO  | 2019-01-27 15:57:42 | Order Window 4 | Order 20     | Hello! Make your order please!
+INFO  | 2019-01-27 15:57:43 | Order Window 1 | Order 19     | 2 x McChicken 8.6
+INFO  | 2019-01-27 15:57:43 | Order Window 3 | Order 16     | 1 x McFlurry 3.0
+INFO  | 2019-01-27 15:57:43 | Order Window 3 | Order 16     | Total price: 18.3
+INFO  | 2019-01-27 15:57:43 |                | Order 16     | Status: packaging
+INFO  | 2019-01-27 15:57:44 | Order Window 2 | Order 17     | 3 x Coca Cola was brought!
+INFO  | 2019-01-27 15:57:44 | Order Window 4 | Order 20     | 2 x Hamburger 3.6
+INFO  | 2019-01-27 15:57:45 | Order Window 1 | Order 19     | 1 x French Fries 3.0
+INFO  | 2019-01-27 15:57:46 | Order Window 2 | Order 17     | 2 x Hamburger was brought!
+INFO  | 2019-01-27 15:57:46 |                | Order 17     | Status: ready
+INFO  | 2019-01-27 15:57:46 | Order Window 3 | Order 16     | 2 x Coca Cola was brought!
+INFO  | 2019-01-27 15:57:46 | Order Window 2 | Order 17     | Thank you for your order! Have a nice day!
+INFO  | 2019-01-27 15:57:46 | Order Window 2 | Order 21     | Hello! Make your order please!
+INFO  | 2019-01-27 15:57:46 | Order Window 4 | Order 20     | 2 x Coca Cola 4.4
+INFO  | 2019-01-27 15:57:46 |                | Pre-order 18 | 1 x McFlurry was packaged!
+INFO  | 2019-01-27 15:57:47 | Order Window 1 | Order 19     | 2 x McFlurry 6.0
+INFO  | 2019-01-27 15:57:47 | Order Window 1 | Order 19     | Total price: 24.2
+INFO  | 2019-01-27 15:57:47 |                | Order 19     | Status: packaging
+INFO  | 2019-01-27 15:57:48 | Order Window 2 | Order 21     | 1 x Hamburger 1.8
+INFO  | 2019-01-27 15:57:48 | Order Window 4 | Order 20     | 1 x McChicken 4.3
+INFO  | 2019-01-27 15:57:49 | Order Window 1 | Order 19     | 2 x McChicken was brought!
+INFO  | 2019-01-27 15:57:49 |                | Pre-order 18 | 3 x Coca Cola was packaged!
+INFO  | 2019-01-27 15:57:50 | Order Window 2 | Order 21     | 1 x Coca Cola 2.2
+INFO  | 2019-01-27 15:57:50 | Order Window 2 | Order 21     | Total price: 4.0
+INFO  | 2019-01-27 15:57:50 |                | Order 21     | Status: packaging
+INFO  | 2019-01-27 15:57:50 | Order Window 4 | Order 20     | 2 x McFlurry 6.0
+INFO  | 2019-01-27 15:57:50 | Order Window 4 | Order 20     | Total price: 18.3
+INFO  | 2019-01-27 15:57:50 |                | Order 20     | Status: packaging
+INFO  | 2019-01-27 15:57:51 | Order Window 3 | Order 16     | 1 x McFlurry was brought!
+INFO  | 2019-01-27 15:57:51 |                | Pre-order 18 | 2 x Hamburger was packaged!
+INFO  | 2019-01-27 15:57:51 |                | Pre-order 18 | Status: ready
+INFO  | 2019-01-27 15:57:51 | Order Window 2 | Pre-order 18 | Thank you for your order! Have a nice day!
+INFO  | 2019-01-27 15:57:51 |                | Pre-order 22 | 1 x Hamburger 1.8
+INFO  | 2019-01-27 15:57:51 |                | Pre-order 22 | 3 x Coca Cola 6.6
+INFO  | 2019-01-27 15:57:51 |                | Pre-order 22 | Total price: 8.4
+INFO  | 2019-01-27 15:57:51 |                | Pre-order 22 | Status: packaging
+INFO  | 2019-01-27 15:57:52 | Order Window 2 | Order 21     | 1 x Hamburger was brought!
+INFO  | 2019-01-27 15:57:53 | Order Window 1 | Order 19     | 1 x French Fries was brought!
+INFO  | 2019-01-27 15:57:53 | Order Window 3 | Order 16     | 2 x Hamburger was brought!
+INFO  | 2019-01-27 15:57:54 |                | Pre-order 22 | 3 x Coca Cola was packaged!
+INFO  | 2019-01-27 15:57:55 | Order Window 2 | Order 21     | 1 x Coca Cola was brought!
+INFO  | 2019-01-27 15:57:55 |                | Order 21     | Status: ready
+INFO  | 2019-01-27 15:57:55 | Order Window 2 | Order 21     | Thank you for your order! Have a nice day!
+INFO  | 2019-01-27 15:57:55 | Order Window 3 | Order 16     | 1 x McChicken was brought!
+INFO  | 2019-01-27 15:57:55 | Order Window 2 | Order 23     | Hello! Make your order please!
+INFO  | 2019-01-27 15:57:55 | Order Window 4 | Order 20     | 2 x McFlurry was brought!
+INFO  | 2019-01-27 15:57:56 |                | Pre-order 22 | 1 x Hamburger was packaged!
+INFO  | 2019-01-27 15:57:56 |                | Pre-order 22 | Status: ready
+INFO  | 2019-01-27 15:57:56 | Order Window 2 | Pre-order 22 | Thank you for your order! Have a nice day!
+INFO  | 2019-01-27 15:57:56 |                | Pre-order 24 | 3 x Coca Cola 6.6
+INFO  | 2019-01-27 15:57:56 |                | Pre-order 24 | 1 x McChicken 4.3
+INFO  | 2019-01-27 15:57:56 |                | Pre-order 24 | 1 x French Fries 3.0
+INFO  | 2019-01-27 15:57:56 |                | Pre-order 24 | 2 x McFlurry 6.0
+INFO  | 2019-01-27 15:57:56 |                | Pre-order 24 | Total price: 19.9
+INFO  | 2019-01-27 15:57:56 |                | Pre-order 24 | Status: packaging
+INFO  | 2019-01-27 15:57:57 | Order Window 2 | Order 23     | 3 x Coca Cola 6.6
+INFO  | 2019-01-27 15:57:58 | Order Window 1 | Order 19     | 2 x McFlurry was brought!
+INFO  | 2019-01-27 15:57:58 | Order Window 4 | Order 20     | 2 x Coca Cola was brought!
+INFO  | 2019-01-27 15:57:59 | Order Window 3 | Order 16     | 1 x French Fries was brought!
+INFO  | 2019-01-27 15:57:59 |                | Order 16     | Status: ready
+INFO  | 2019-01-27 15:57:59 | Order Window 2 | Order 23     | 2 x McChicken 8.6
+INFO  | 2019-01-27 15:57:59 | Order Window 3 | Order 16     | Thank you for your order! Have a nice day!
+INFO  | 2019-01-27 15:57:59 | Order Window 3 | Order 25     | Hello! Make your order please!
+INFO  | 2019-01-27 15:57:59 |                | Pre-order 24 | 3 x Coca Cola was packaged!
+INFO  | 2019-01-27 15:58:00 | Order Window 4 | Order 20     | 1 x McChicken was brought!
+INFO  | 2019-01-27 15:58:01 | Order Window 1 | Order 19     | 3 x Coca Cola was brought!
+INFO  | 2019-01-27 15:58:01 |                | Order 19     | Status: ready
+INFO  | 2019-01-27 15:58:01 | Order Window 1 | Order 19     | Thank you for your order! Have a nice day!
+INFO  | 2019-01-27 15:58:01 | Order Window 1 | Order 26     | Hello! Make your order please!
+INFO  | 2019-01-27 15:58:01 | Order Window 2 | Order 23     | 2 x French Fries 6.0
+INFO  | 2019-01-27 15:58:01 | Order Window 3 | Order 25     | 1 x Hamburger 1.8
+INFO  | 2019-01-27 15:58:01 |                | Pre-order 24 | 1 x McChicken was packaged!
+INFO  | 2019-01-27 15:58:02 | Order Window 4 | Order 20     | 2 x Hamburger was brought!
+INFO  | 2019-01-27 15:58:02 |                | Order 20     | Status: ready
+INFO  | 2019-01-27 15:58:02 | Order Window 4 | Order 20     | Thank you for your order! Have a nice day!
+INFO  | 2019-01-27 15:58:03 | Order Window 1 | Order 26     | 2 x Coca Cola 4.4
+INFO  | 2019-01-27 15:58:03 | Order Window 2 | Order 23     | 2 x McFlurry 6.0
+INFO  | 2019-01-27 15:58:03 | Order Window 2 | Order 23     | Total price: 27.2
+INFO  | 2019-01-27 15:58:03 |                | Order 23     | Status: packaging
+INFO  | 2019-01-27 15:58:03 | Order Window 3 | Order 25     | 2 x Coca Cola 4.4
+INFO  | 2019-01-27 15:58:05 | Order Window 1 | Order 26     | 1 x French Fries 3.0
+INFO  | 2019-01-27 15:58:05 | Order Window 1 | Order 26     | Total price: 7.4
+INFO  | 2019-01-27 15:58:05 |                | Order 26     | Status: packaging
+INFO  | 2019-01-27 15:58:05 | Order Window 2 | Order 23     | 2 x McChicken was brought!
+INFO  | 2019-01-27 15:58:05 | Order Window 3 | Order 25     | 2 x McChicken 8.6
+INFO  | 2019-01-27 15:58:05 |                | Pre-order 24 | 1 x French Fries was packaged!
+INFO  | 2019-01-27 15:58:07 | Order Window 3 | Order 25     | 1 x French Fries 3.0
+INFO  | 2019-01-27 15:58:07 | Order Window 3 | Order 25     | Total price: 17.8
+INFO  | 2019-01-27 15:58:07 |                | Order 25     | Status: packaging
+INFO  | 2019-01-27 15:58:08 | Order Window 2 | Order 23     | 3 x Coca Cola was brought!
+INFO  | 2019-01-27 15:58:09 | Order Window 1 | Order 26     | 1 x French Fries was brought!
+INFO  | 2019-01-27 15:58:10 | Order Window 3 | Order 25     | 2 x Coca Cola was brought!
+INFO  | 2019-01-27 15:58:10 |                | Pre-order 24 | 2 x McFlurry was packaged!
+INFO  | 2019-01-27 15:58:10 |                | Pre-order 24 | Status: ready
+INFO  | 2019-01-27 15:58:10 | Order Window 4 | Pre-order 24 | Thank you for your order! Have a nice day!
+INFO  | 2019-01-27 15:58:10 |                | Pre-order 27 | 2 x Hamburger 3.6
+INFO  | 2019-01-27 15:58:10 |                | Pre-order 27 | 1 x Coca Cola 2.2
+INFO  | 2019-01-27 15:58:10 |                | Pre-order 27 | 2 x French Fries 6.0
+INFO  | 2019-01-27 15:58:10 |                | Pre-order 27 | 2 x McFlurry 6.0
+INFO  | 2019-01-27 15:58:10 |                | Pre-order 27 | Total price: 17.8
+INFO  | 2019-01-27 15:58:10 |                | Pre-order 27 | Status: packaging
+INFO  | 2019-01-27 15:58:12 | Order Window 2 | Order 23     | 2 x French Fries was brought!
+INFO  | 2019-01-27 15:58:12 | Order Window 1 | Order 26     | 2 x Coca Cola was brought!
+INFO  | 2019-01-27 15:58:12 |                | Order 26     | Status: ready
+INFO  | 2019-01-27 15:58:12 | Order Window 1 | Order 26     | Thank you for your order! Have a nice day!
+INFO  | 2019-01-27 15:58:12 | Order Window 1 | Order 28     | Hello! Make your order please!
+INFO  | 2019-01-27 15:58:12 | Order Window 3 | Order 25     | 2 x McChicken was brought!
+INFO  | 2019-01-27 15:58:12 |                | Pre-order 27 | 2 x Hamburger was packaged!
+INFO  | 2019-01-27 15:58:14 | Order Window 1 | Order 28     | 2 x Coca Cola 4.4
+INFO  | 2019-01-27 15:58:14 | Order Window 3 | Order 25     | 1 x Hamburger was brought!
+INFO  | 2019-01-27 15:58:15 |                | Pre-order 27 | 1 x Coca Cola was packaged!
+INFO  | 2019-01-27 15:58:16 | Order Window 1 | Order 28     | 2 x McChicken 8.6
+INFO  | 2019-01-27 15:58:17 | Order Window 2 | Order 23     | 2 x McFlurry was brought!
+INFO  | 2019-01-27 15:58:17 |                | Order 23     | Status: ready
+INFO  | 2019-01-27 15:58:17 | Order Window 2 | Order 23     | Thank you for your order! Have a nice day!
+INFO  | 2019-01-27 15:58:18 | Order Window 1 | Order 28     | 1 x McFlurry 3.0
+INFO  | 2019-01-27 15:58:18 | Order Window 1 | Order 28     | Total price: 16.0
+INFO  | 2019-01-27 15:58:18 | Order Window 3 | Order 25     | 1 x French Fries was brought!
+INFO  | 2019-01-27 15:58:18 |                | Order 28     | Status: packaging
+INFO  | 2019-01-27 15:58:18 |                | Order 25     | Status: ready
+INFO  | 2019-01-27 15:58:18 | Order Window 3 | Order 25     | Thank you for your order! Have a nice day!
+INFO  | 2019-01-27 15:58:18 | Order Window 3 | Order 29     | Hello! Make your order please!
+INFO  | 2019-01-27 15:58:20 | Order Window 3 | Order 29     | 2 x Coca Cola 4.4
+INFO  | 2019-01-27 15:58:20 |                | Pre-order 27 | 2 x McFlurry was packaged!
+INFO  | 2019-01-27 15:58:22 | Order Window 3 | Order 29     | 2 x McChicken 8.6
+INFO  | 2019-01-27 15:58:23 | Order Window 1 | Order 28     | 1 x McFlurry was brought!
+INFO  | 2019-01-27 15:58:24 | Order Window 3 | Order 29     | 2 x French Fries 6.0
+INFO  | 2019-01-27 15:58:24 |                | Pre-order 27 | 2 x French Fries was packaged!
+INFO  | 2019-01-27 15:58:24 |                | Pre-order 27 | Status: ready
+INFO  | 2019-01-27 15:58:24 | Order Window 1 | Pre-order 27 | Thank you for your order! Have a nice day!
+INFO  | 2019-01-27 15:58:24 |                | Pre-order 30 | 1 x Hamburger 1.8
+INFO  | 2019-01-27 15:58:24 |                | Pre-order 30 | 2 x Coca Cola 4.4
+INFO  | 2019-01-27 15:58:24 |                | Pre-order 30 | 1 x McChicken 4.3
+INFO  | 2019-01-27 15:58:24 |                | Pre-order 30 | 2 x French Fries 6.0
+INFO  | 2019-01-27 15:58:24 |                | Pre-order 30 | Total price: 16.5
+INFO  | 2019-01-27 15:58:24 |                | Pre-order 30 | Status: packaging
+INFO  | 2019-01-27 15:58:25 | Order Window 1 | Order 28     | 2 x McChicken was brought!
+INFO  | 2019-01-27 15:58:26 | Order Window 3 | Order 29     | 1 x McFlurry 3.0
+INFO  | 2019-01-27 15:58:26 | Order Window 3 | Order 29     | Total price: 22.0
+INFO  | 2019-01-27 15:58:26 |                | Order 29     | Status: packaging
+INFO  | 2019-01-27 15:58:26 |                | Pre-order 30 | 1 x McChicken was packaged!
+INFO  | 2019-01-27 15:58:28 | Order Window 1 | Order 28     | 2 x Coca Cola was brought!
+INFO  | 2019-01-27 15:58:28 |                | Order 28     | Status: ready
+INFO  | 2019-01-27 15:58:28 | Order Window 1 | Order 28     | Thank you for your order! Have a nice day!
+INFO  | 2019-01-27 15:58:29 | Order Window 3 | Order 29     | 2 x Coca Cola was brought!
+INFO  | 2019-01-27 15:58:30 |                | Pre-order 30 | 2 x French Fries was packaged!
+INFO  | 2019-01-27 15:58:31 | Order Window 3 | Order 29     | 2 x McChicken was brought!
+INFO  | 2019-01-27 15:58:32 |                | Pre-order 30 | 1 x Hamburger was packaged!
+INFO  | 2019-01-27 15:58:35 | Order Window 3 | Order 29     | 2 x French Fries was brought!
+INFO  | 2019-01-27 15:58:35 |                | Pre-order 30 | 2 x Coca Cola was packaged!
+INFO  | 2019-01-27 15:58:35 |                | Pre-order 30 | Status: ready
+INFO  | 2019-01-27 15:58:35 | Order Window 4 | Pre-order 30 | Thank you for your order! Have a nice day!
+INFO  | 2019-01-27 15:58:35 |                | Pre-order 31 | 3 x Coca Cola 6.6
+INFO  | 2019-01-27 15:58:35 |                | Pre-order 31 | 2 x McChicken 8.6
+INFO  | 2019-01-27 15:58:35 |                | Pre-order 31 | 2 x McFlurry 6.0
+INFO  | 2019-01-27 15:58:35 |                | Pre-order 31 | Total price: 21.2
+INFO  | 2019-01-27 15:58:35 |                | Pre-order 31 | Status: packaging
+INFO  | 2019-01-27 15:58:37 |                | Pre-order 31 | 2 x McChicken was packaged!
+INFO  | 2019-01-27 15:58:40 | Order Window 3 | Order 29     | 1 x McFlurry was brought!
+INFO  | 2019-01-27 15:58:40 |                | Order 29     | Status: ready
+INFO  | 2019-01-27 15:58:40 | Order Window 3 | Order 29     | Thank you for your order! Have a nice day!
+INFO  | 2019-01-27 15:58:40 |                | Pre-order 31 | 3 x Coca Cola was packaged!
+INFO  | 2019-01-27 15:58:45 |                | Pre-order 31 | 2 x McFlurry was packaged!
+INFO  | 2019-01-27 15:58:45 |                | Pre-order 31 | Status: ready
+INFO  | 2019-01-27 15:58:45 | Order Window 3 | Pre-order 31 | Thank you for your order! Have a nice day!
+INFO  | 2019-01-27 15:58:45 |                | Pre-order 32 | 1 x Coca Cola 2.2
+INFO  | 2019-01-27 15:58:45 |                | Pre-order 32 | 1 x McChicken 4.3
+INFO  | 2019-01-27 15:58:45 |                | Pre-order 32 | 1 x French Fries 3.0
+INFO  | 2019-01-27 15:58:45 |                | Pre-order 32 | 2 x McFlurry 6.0
+INFO  | 2019-01-27 15:58:45 |                | Pre-order 32 | Total price: 15.5
+INFO  | 2019-01-27 15:58:45 |                | Pre-order 32 | Status: packaging
+INFO  | 2019-01-27 15:58:48 |                | Pre-order 32 | 1 x Coca Cola was packaged!
+INFO  | 2019-01-27 15:58:50 |                | Pre-order 32 | 1 x McChicken was packaged!
+INFO  | 2019-01-27 15:58:54 |                | Pre-order 32 | 1 x French Fries was packaged!
+INFO  | 2019-01-27 15:58:59 |                | Pre-order 32 | 2 x McFlurry was packaged!
+INFO  | 2019-01-27 15:58:59 |                | Pre-order 32 | Status: ready
+INFO  | 2019-01-27 15:58:59 | Order Window 2 | Pre-order 32 | Thank you for your order! Have a nice day!
+INFO  | 2019-01-27 15:58:59 |                | Pre-order 33 | 1 x Hamburger 1.8
+INFO  | 2019-01-27 15:58:59 |                | Pre-order 33 | 3 x Coca Cola 6.6
+INFO  | 2019-01-27 15:58:59 |                | Pre-order 33 | 1 x McChicken 4.3
+INFO  | 2019-01-27 15:58:59 |                | Pre-order 33 | 2 x French Fries 6.0
+INFO  | 2019-01-27 15:58:59 |                | Pre-order 33 | 1 x McFlurry 3.0
+INFO  | 2019-01-27 15:58:59 |                | Pre-order 33 | Total price: 21.7
+INFO  | 2019-01-27 15:58:59 |                | Pre-order 33 | Status: packaging
+INFO  | 2019-01-27 15:59:01 |                | Pre-order 33 | 1 x McChicken was packaged!
+INFO  | 2019-01-27 15:59:05 |                | Pre-order 33 | 2 x French Fries was packaged!
+INFO  | 2019-01-27 15:59:10 |                | Pre-order 33 | 1 x McFlurry was packaged!
+INFO  | 2019-01-27 15:59:13 |                | Pre-order 33 | 3 x Coca Cola was packaged!
+INFO  | 2019-01-27 15:59:15 |                | Pre-order 33 | 1 x Hamburger was packaged!
+INFO  | 2019-01-27 15:59:15 |                | Pre-order 33 | Status: ready
+INFO  | 2019-01-27 15:59:15 | Order Window 1 | Pre-order 33 | Thank you for your order! Have a nice day!
+INFO  | 2019-01-27 15:59:15 |                | Pre-order 34 | 2 x Hamburger 3.6
+INFO  | 2019-01-27 15:59:15 |                | Pre-order 34 | 2 x Coca Cola 4.4
+INFO  | 2019-01-27 15:59:15 |                | Pre-order 34 | 1 x McFlurry 3.0
+INFO  | 2019-01-27 15:59:15 |                | Pre-order 34 | Total price: 11.0
+INFO  | 2019-01-27 15:59:15 |                | Pre-order 34 | Status: packaging
+INFO  | 2019-01-27 15:59:18 |                | Pre-order 34 | 2 x Coca Cola was packaged!
+INFO  | 2019-01-27 15:59:20 |                | Pre-order 34 | 2 x Hamburger was packaged!
+INFO  | 2019-01-27 15:59:25 |                | Pre-order 34 | 1 x McFlurry was packaged!
+INFO  | 2019-01-27 15:59:25 |                | Pre-order 34 | Status: ready
+INFO  | 2019-01-27 15:59:25 | Order Window 2 | Pre-order 34 | Thank you for your order! Have a nice day!
+INFO  | 2019-01-27 15:59:25 |                | Pre-order 35 | 2 x Hamburger 3.6
+INFO  | 2019-01-27 15:59:25 |                | Pre-order 35 | 1 x Coca Cola 2.2
+INFO  | 2019-01-27 15:59:25 |                | Pre-order 35 | 2 x McChicken 8.6
+INFO  | 2019-01-27 15:59:25 |                | Pre-order 35 | 2 x French Fries 6.0
+INFO  | 2019-01-27 15:59:25 |                | Pre-order 35 | 2 x McFlurry 6.0
+INFO  | 2019-01-27 15:59:25 |                | Pre-order 35 | Total price: 26.4
+INFO  | 2019-01-27 15:59:25 |                | Pre-order 35 | Status: packaging
+INFO  | 2019-01-27 15:59:28 |                | Pre-order 35 | 1 x Coca Cola was packaged!
+INFO  | 2019-01-27 15:59:32 |                | Pre-order 35 | 2 x French Fries was packaged!
+INFO  | 2019-01-27 15:59:34 |                | Pre-order 35 | 2 x McChicken was packaged!
+INFO  | 2019-01-27 15:59:39 |                | Pre-order 35 | 2 x McFlurry was packaged!
+INFO  | 2019-01-27 15:59:41 |                | Pre-order 35 | 2 x Hamburger was packaged!
+INFO  | 2019-01-27 15:59:41 |                | Pre-order 35 | Status: ready
+INFO  | 2019-01-27 15:59:41 | Order Window 1 | Pre-order 35 | Thank you for your order! Have a nice day!
+INFO  | 2019-01-27 15:59:41 |                | Pre-order 36 | 2 x Hamburger 3.6
+INFO  | 2019-01-27 15:59:41 |                | Pre-order 36 | 3 x Coca Cola 6.6
+INFO  | 2019-01-27 15:59:41 |                | Pre-order 36 | 2 x McChicken 8.6
+INFO  | 2019-01-27 15:59:41 |                | Pre-order 36 | 1 x French Fries 3.0
+INFO  | 2019-01-27 15:59:41 |                | Pre-order 36 | 1 x McFlurry 3.0
+INFO  | 2019-01-27 15:59:41 |                | Pre-order 36 | Total price: 24.8
+INFO  | 2019-01-27 15:59:41 |                | Pre-order 36 | Status: packaging
+INFO  | 2019-01-27 15:59:45 |                | Pre-order 36 | 1 x French Fries was packaged!
+INFO  | 2019-01-27 15:59:47 |                | Pre-order 36 | 2 x Hamburger was packaged!
+INFO  | 2019-01-27 15:59:52 |                | Pre-order 36 | 1 x McFlurry was packaged!
+INFO  | 2019-01-27 15:59:54 |                | Pre-order 36 | 2 x McChicken was packaged!
+INFO  | 2019-01-27 15:59:57 |                | Pre-order 36 | 3 x Coca Cola was packaged!
+INFO  | 2019-01-27 15:59:57 |                | Pre-order 36 | Status: ready
+INFO  | 2019-01-27 15:59:57 | Order Window 2 | Pre-order 36 | Thank you for your order! Have a nice day!

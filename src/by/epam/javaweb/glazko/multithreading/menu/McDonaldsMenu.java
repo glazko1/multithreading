@@ -16,6 +16,9 @@ public class McDonaldsMenu implements RestaurantMenu {
 
     private List<String> menuItems;
 
+    /**
+     * Initializes McDonald's menu with names of menu items.
+     */
     public void init() {
         menuItems = new ArrayList<>(Arrays.asList(
                 "Hamburger",

@@ -33,6 +33,10 @@ public class Customer implements Callable<Customer> {
         return this;
     }
 
+    /**
+     * Process of getting into the queue by customer. Customer orders when his turn
+     * comes.
+     */
     private void getInQueue() {
         OrderWindow orderWindow = mcDonalds.getOrderWindow(orderWindowNumber);
         try {
@@ -42,6 +46,9 @@ public class Customer implements Callable<Customer> {
         }
     }
 
+    /**
+     * Process of making pre-order.
+     */
     private void makePreOrder() {
         PreOrderWindow preOrderWindow = mcDonalds.getPreOrderWindow();
         try {

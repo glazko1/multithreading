@@ -1,5 +1,6 @@
 package by.epam.javaweb.glazko.multithreading.action;
 
+import by.epam.javaweb.glazko.multithreading.exception.FileWritingException;
 import by.epam.javaweb.glazko.multithreading.menu.RestaurantMenu;
 import by.epam.javaweb.glazko.multithreading.restaurant.McDonalds;
 
@@ -20,7 +21,13 @@ public class InitialValuesGenerator {
     private McDonalds mcDonalds = McDonalds.getInstance();
     private RestaurantMenu menu = mcDonalds.getMenu();
 
-    public void generateInitialValues(String path) {
+    /**
+     * Generates initial values (customer's parameters: number of order window, quantity
+     * of menu item, menu item (1-5 times), order/pre-order) and writes them into file.
+     * @param path path to the file to write information in.
+     * @throws FileWritingException if there was an error while writing into a file.
+     */
+    public void generateInitialValues(String path) throws FileWritingException {
         int numberOfCustomers = (int) (Math.random() * 100) + 1;
         List<String> menuItems = menu.getItems();
         StringBuilder stringBuilder = new StringBuilder();
@@ -52,7 +59,7 @@ public class InitialValuesGenerator {
             String text = stringBuilder.toString();
             writer.write(text);
         } catch (IOException e) {
-            e.printStackTrace();
+            throw new FileWritingException("Error while writing initial values to file!", e);
         }
     }
 }

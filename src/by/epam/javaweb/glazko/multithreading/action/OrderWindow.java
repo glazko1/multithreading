@@ -28,6 +28,14 @@ public class OrderWindow {
         this.orderWindowNumber = orderWindowNumber;
     }
 
+    /**
+     * Process of taking order from customer. Order window becomes locked when customer calls
+     * this method, then new order is created and ordinal number is set to it. For every menu item
+     * in given map method {@code addMenuItem()} is called, and then order is processed (menu
+     * items are packaged).
+     * @param menuItems list of menu items in order.
+     * @throws WrongActionException if it's impossible to move order to the next status.
+     */
     public void takeOrder(Map<String, Integer> menuItems) throws WrongActionException {
         try {
             lock.lock();
@@ -44,11 +52,17 @@ public class OrderWindow {
         }
     }
 
+    /**
+     * Process of adding menu item to the order after sleeping 2 seconds (time to find this menu item
+     * and tap on it). After adding information about this item (name and quantity) is printed to the log file.
+     * @param name menu item's name.
+     * @param quantity menu item's quantity.
+     */
     private void addMenuItem(String name, int quantity) {
         try {
             TimeUnit.SECONDS.sleep(2);
         } catch (InterruptedException e) {
-            e.printStackTrace();
+            LOGGER.error(e.getMessage());
         }
         MenuItem menuItem = factory.createMenuItem(name);
         currentOrder.addMenuItem(menuItem, quantity);
@@ -56,6 +70,11 @@ public class OrderWindow {
         LOGGER.info(String.format(LOG_FORMAT, "Order Window " + orderWindowNumber, "Order " + currentOrder.getNumber(), quantity + " x " + menuItem.getName() + " " + price));
     }
 
+    /**
+     * Processes customer's order. Sleeps the amount of time needed to bring the menu item, then prints
+     * information about packaged item to the log file.
+     * @throws WrongActionException if it's impossible to move order to the next status.
+     */
     private void processOrder() throws WrongActionException {
         double price = Math.round(currentOrder.getPrice() * 100.0) / 100.0;
         LOGGER.info(String.format(LOG_FORMAT, "Order Window " + orderWindowNumber, "Order " + currentOrder.getNumber(), "Total price: " + price));
@@ -65,7 +84,7 @@ public class OrderWindow {
             try {
                 TimeUnit.SECONDS.sleep(m.getPackageTime());
             } catch (InterruptedException e) {
-                e.printStackTrace();
+                LOGGER.error(e.getMessage());
             }
             LOGGER.info(String.format(LOG_FORMAT, "Order Window " + orderWindowNumber, "Order " + currentOrder.getNumber(), q + " x " + m.getName() + " was brought!"));
         });
@@ -73,6 +92,10 @@ public class OrderWindow {
         LOGGER.info(String.format(LOG_FORMAT, "Order Window " + orderWindowNumber, "Order " + currentOrder.getNumber(), "Thank you for your order! Have a nice day!"));
     }
 
+    /**
+     * Moves order to the next status.
+     * @throws WrongActionException if it's impossible to move order to the next status.
+     */
     private void moveOrderToNextStatus() throws WrongActionException {
         currentOrder.nextState();
         LOGGER.info(String.format(LOG_FORMAT, "", "Order " + currentOrder.getNumber(), currentOrder.getStatus()));

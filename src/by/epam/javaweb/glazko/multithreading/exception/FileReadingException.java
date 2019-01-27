@@ -2,6 +2,8 @@ package by.epam.javaweb.glazko.multithreading.exception;
 
 public class FileReadingException extends Throwable {
 
+    static final long serialVersionUID = 2354653126886513536L;
+
     public FileReadingException() {
     }
 

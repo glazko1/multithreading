@@ -13,11 +13,20 @@ public class ReadyState implements OrderState {
 
     private ReadyState() {}
 
+    /**
+     * Switches given order state to {@code PackagingState}.
+     * @param order order to change state.
+     */
     @Override
     public void previous(Order order) {
         order.setOrderState(PackagingState.getInstance());
     }
 
+    /**
+     * @param order order to change state.
+     * @throws WrongActionException because there is no available next state for
+     * {@code CompositionState}.
+     */
     @Override
     public void next(Order order) throws WrongActionException {
         throw new WrongActionException("No next state for Ready State");

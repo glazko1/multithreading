@@ -30,6 +30,9 @@ public class McDonalds implements Restaurant {
     private List<ExecutorService> orderWindowExecutorServices = new ArrayList<>();
     private ExecutorService preOrderWindowExecutorService = Executors.newSingleThreadExecutor();
 
+    /**
+     * Initializes order windows of McDonald's and provides each of them with thread executor.
+     */
     public void init() {
         OrderWindow orderWindow1 = new OrderWindow(1);
         OrderWindow orderWindow2 = new OrderWindow(2);

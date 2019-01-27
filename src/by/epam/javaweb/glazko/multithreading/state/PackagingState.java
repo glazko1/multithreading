@@ -12,11 +12,19 @@ public class PackagingState implements OrderState {
 
     private PackagingState() {}
 
+    /**
+     * Switches given order state to {@code CompositionState}.
+     * @param order order to change state.
+     */
     @Override
     public void previous(Order order) {
         order.setOrderState(CompositionState.getInstance());
     }
 
+    /**
+     * Switches given order state to {@code ReadyState}.
+     * @param order order to change state.
+     */
     @Override
     public void next(Order order) {
         order.setOrderState(ReadyState.getInstance());
