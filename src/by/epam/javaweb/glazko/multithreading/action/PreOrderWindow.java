@@ -1,0 +1,79 @@
+package by.epam.javaweb.glazko.multithreading.action;
+
+import by.epam.javaweb.glazko.multithreading.entity.Order;
+import by.epam.javaweb.glazko.multithreading.entity.OrderType;
+import by.epam.javaweb.glazko.multithreading.exception.WrongActionException;
+import by.epam.javaweb.glazko.multithreading.factory.MenuItemFactory;
+import by.epam.javaweb.glazko.multithreading.items.MenuItem;
+import by.epam.javaweb.glazko.multithreading.restaurant.McDonalds;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import java.util.Map;
+import java.util.concurrent.TimeUnit;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
+
+public class PreOrderWindow {
+
+    private static final PreOrderWindow INSTANCE = new PreOrderWindow();
+
+    public static PreOrderWindow getInstance() {
+        return INSTANCE;
+    }
+
+    private PreOrderWindow() {}
+
+    private static final Logger LOGGER = LogManager.getLogger(PreOrderWindow.class);
+    private static final String LOG_FORMAT = "%-14s | %-12s | %s";
+
+    private int orderWindowNumber;
+    private Order currentOrder;
+    private Lock lock = new ReentrantLock();
+    private MenuItemFactory factory = MenuItemFactory.getInstance();
+
+    public void takePreOrder(Map<String, Integer> menuItems, int cashRegisterNumber) throws WrongActionException {
+        try {
+            lock.lock();
+            this.orderWindowNumber = cashRegisterNumber;
+            int orderNumber = McDonalds.getOrderQuantity();
+            currentOrder = new Order(OrderType.PRE_ORDER);
+            currentOrder.setNumber(orderNumber);
+            menuItems.forEach(this::addMenuItem);
+            processPreOrder();
+        } catch (WrongActionException e) {
+            throw new WrongActionException("Pre-order " + currentOrder.getNumber() + ": " + e.getMessage());
+        } finally {
+            lock.unlock();
+        }
+    }
+
+    private void addMenuItem(String name, int quantity) {
+        MenuItem menuItem = factory.createMenuItem(name);
+        double price = Math.round(quantity * menuItem.getPrice() * 100.0) / 100.0;
+        currentOrder.addMenuItem(menuItem, quantity);
+        LOGGER.info(String.format(LOG_FORMAT, "", "Pre-order " + currentOrder.getNumber(), quantity + " x " + menuItem.getName() + " " + price));
+    }
+
+    private void processPreOrder() throws WrongActionException {
+        double price = Math.round(currentOrder.getPrice() * 100.0) / 100.0;
+        LOGGER.info(String.format(LOG_FORMAT, "", "Pre-order " + currentOrder.getNumber(), "Total price: " + price));
+        moveOrderToNextStatus();
+        Map<MenuItem, Integer> menuItems = currentOrder.getOrderMenuItems();
+        menuItems.forEach((m, q) -> {
+            try {
+                TimeUnit.SECONDS.sleep(m.getPackageTime());
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            LOGGER.info(String.format(LOG_FORMAT, "", "Pre-order " + currentOrder.getNumber(), q + " x " + m.getName() + " was packaged!"));
+        });
+        moveOrderToNextStatus();
+        LOGGER.info(String.format(LOG_FORMAT, "Order Window " + orderWindowNumber, "Pre-order " + currentOrder.getNumber(), "Thank you for your order! Have a nice day!"));
+    }
+
+    private void moveOrderToNextStatus() throws WrongActionException {
+        currentOrder.nextState();
+        LOGGER.info(String.format(LOG_FORMAT, "", "Pre-order " + currentOrder.getNumber(), currentOrder.getStatus()));
+    }
+}
